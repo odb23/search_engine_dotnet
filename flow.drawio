@@ -1,9 +1,125 @@
-<mxfile host="app.diagrams.net" modified="2023-05-09T17:39:05.311Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.2.9" etag="8BwmrNZOmH4uAryEIDDI" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-09T18:16:34.418Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="C2QEaa-OoT3prRGJFudi" version="21.2.9" type="github">
   <diagram name="Page-1" id="UIX4khwWszi_WQvZBCid">
-    <mxGraphModel>
+    <mxGraphModel dx="1173" dy="616" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="583" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="kY1FUDO-2MIFEGPPfgY5-14" value="Search Engine Process Flow" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;strokeWidth=4;perimeterSpacing=11;gradientColor=default;fontStyle=5;fontSize=20;horizontal=1;labelPosition=center;verticalLabelPosition=middle;" vertex="1" parent="1">
+          <mxGeometry x="257" y="8" width="313" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kY1FUDO-2MIFEGPPfgY5-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.005;exitY=0.005;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="kY1FUDO-2MIFEGPPfgY5-21" target="kY1FUDO-2MIFEGPPfgY5-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="72.99666666666661" y="77.93" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="247" y="158" />
+              <mxPoint x="247" y="145" />
+              <mxPoint x="187" y="145" />
+              <mxPoint x="187" y="106" />
+              <mxPoint x="137" y="106" />
+              <mxPoint x="137" y="78" />
+              <mxPoint x="69" y="78" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kY1FUDO-2MIFEGPPfgY5-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.984;entryY=0.48;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kY1FUDO-2MIFEGPPfgY5-21" target="kY1FUDO-2MIFEGPPfgY5-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="107.17857122943968" y="290.93" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="134" y="242" />
+              <mxPoint x="134" y="303" />
+              <mxPoint x="107" y="303" />
+              <mxPoint x="107" y="311" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kY1FUDO-2MIFEGPPfgY5-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="kY1FUDO-2MIFEGPPfgY5-21" target="kY1FUDO-2MIFEGPPfgY5-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="118" y="221" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="223" y="213" />
+              <mxPoint x="223" y="205" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kY1FUDO-2MIFEGPPfgY5-21" value="&lt;sup&gt;Search Engine Web&amp;nbsp; API&lt;/sup&gt;" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.services;" vertex="1" parent="1">
+          <mxGeometry x="349" y="157" width="174" height="113.07" as="geometry" />
+        </mxCell>
+        <mxCell id="kY1FUDO-2MIFEGPPfgY5-22" value="Cllient" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.client;" vertex="1" parent="1">
+          <mxGeometry x="40" y="182" width="58.5" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="kY1FUDO-2MIFEGPPfgY5-24" value="Cllient" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.client;" vertex="1" parent="1">
+          <mxGeometry x="45" y="284" width="58.5" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="kY1FUDO-2MIFEGPPfgY5-25" value="Cllient" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.client;" vertex="1" parent="1">
+          <mxGeometry x="40" y="87" width="58.5" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="kY1FUDO-2MIFEGPPfgY5-30" value="Data base&lt;br&gt;Inverted&amp;nbsp;&lt;br&gt;Index" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="684" y="164" width="88" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="kY1FUDO-2MIFEGPPfgY5-32" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="330" as="sourcePoint" />
+            <mxPoint x="440" y="267" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kY1FUDO-2MIFEGPPfgY5-33" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="524" y="243" as="sourcePoint" />
+            <mxPoint x="684" y="243" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kY1FUDO-2MIFEGPPfgY5-34" value="Query" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="kY1FUDO-2MIFEGPPfgY5-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kY1FUDO-2MIFEGPPfgY5-37" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.065;entryY=0.386;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="kY1FUDO-2MIFEGPPfgY5-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="679" y="203" as="sourcePoint" />
+            <mxPoint x="575" y="203" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kY1FUDO-2MIFEGPPfgY5-38" value="Result Set" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="kY1FUDO-2MIFEGPPfgY5-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kY1FUDO-2MIFEGPPfgY5-40" value="Controllers" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="236" y="296" width="76" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="kY1FUDO-2MIFEGPPfgY5-41" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="277" as="sourcePoint" />
+            <mxPoint x="272" y="297" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kY1FUDO-2MIFEGPPfgY5-42" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.global_secondary_index;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="405" y="370" width="67.5" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="kY1FUDO-2MIFEGPPfgY5-43" value="indexing" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="405" y="341" width="63" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="kY1FUDO-2MIFEGPPfgY5-44" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/miscellaneous/retrieve_rank.svg;" vertex="1" parent="1">
+          <mxGeometry x="543" y="355" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kY1FUDO-2MIFEGPPfgY5-46" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="553" y="327" as="sourcePoint" />
+            <mxPoint x="523" y="266" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kY1FUDO-2MIFEGPPfgY5-47" value="Ranking" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="531" y="329" width="62" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="kY1FUDO-2MIFEGPPfgY5-48" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="kY1FUDO-2MIFEGPPfgY5-42" target="kY1FUDO-2MIFEGPPfgY5-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="512" as="sourcePoint" />
+            <mxPoint x="333" y="248" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="571" y="495" />
+              <mxPoint x="644" y="489" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kY1FUDO-2MIFEGPPfgY5-49" value="inverted index list&amp;nbsp;&lt;br&gt;for keywords" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="535" y="429" width="114" height="41" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
