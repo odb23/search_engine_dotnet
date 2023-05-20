@@ -5,7 +5,9 @@ VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchEngine.API", "SearchEngine.API\SearchEngine.API.csproj", "{1F2CCEB1-4BC9-426C-A8D9-3A48784D97DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchEngine.API.Tests", "SearchEngine.API.Tests\SearchEngine.API.Tests.csproj", "{69A53100-834D-4501-B0F6-AEE3EE2266BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchEngine.API.Tests", "SearchEngine.API.Tests\SearchEngine.API.Tests.csproj", "{69A53100-834D-4501-B0F6-AEE3EE2266BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchEngine.UI", "SearchEngine.UI\SearchEngine.UI.csproj", "{70BBA4F6-793D-4016-8811-A9DB521EC15A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{69A53100-834D-4501-B0F6-AEE3EE2266BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69A53100-834D-4501-B0F6-AEE3EE2266BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69A53100-834D-4501-B0F6-AEE3EE2266BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70BBA4F6-793D-4016-8811-A9DB521EC15A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70BBA4F6-793D-4016-8811-A9DB521EC15A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70BBA4F6-793D-4016-8811-A9DB521EC15A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70BBA4F6-793D-4016-8811-A9DB521EC15A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
