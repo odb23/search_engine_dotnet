@@ -3,11 +3,11 @@ using SearchEngine.API.Interfaces;
 using SearchEngine.API.Models;
 using System.Text;
 
-namespace SearchEngine.API.Services
+namespace SearchEngine.API.Services.Parsers
 {
     public class HTMLParser : DocParser
     {
-        
+
         public override IDocument? ExtractDataToDocument(FileInfo file)
         {
             string htmlTextContent = ExtractFromFileAsText(file);

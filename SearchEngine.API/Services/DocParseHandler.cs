@@ -1,6 +1,6 @@
 ﻿using SearchEngine.API.Exceptions;
 using SearchEngine.API.Interfaces;
-using SearchEngine.API.Models;
+using SearchEngine.API.Services.Parsers;
 using SearchEngine.API.Utils;
 
 namespace SearchEngine.API.Services
@@ -27,7 +27,14 @@ namespace SearchEngine.API.Services
 
             return file.Extension switch
             {
-                "html" => new HTMLParser(),
+                ".html" => new HTMLParser(),
+                ".pdf" => new PdfParser(),
+                ".docx" => new WordDocParser(),
+                ".doc" => new WordDocParser(),
+                ".txt" => new TxtParser(),
+                ".xml" => new XmlParser(),
+                ".ppt" => new PowerPointParser(),
+                ".pptx" => new PowerPointParser(),
                 _ => null,
             };
         }
