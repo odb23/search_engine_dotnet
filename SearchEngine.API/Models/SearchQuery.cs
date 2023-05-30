@@ -1,22 +1,38 @@
 ﻿using SearchEngine.API.Interfaces;
+using SearchEngine.API.Utils;
 using System.Runtime.CompilerServices;
 
 namespace SearchEngine.API.Models
 {
     public class SearchQuery : ISearchQuery
-    {
-        private readonly string _Query;
-        
-        public SearchQuery(string query) { 
-            this._Query = query; 
+    {        
+        public SearchQuery(string query) {
+            this.GetQueryTokens(query);
         }
 
-        public string Query
+        public void GetQueryTokens( string query)
         {
-            get
+            char[] delimiterChars = { ' ', ',', '.', ':', '\t' };
+
+            var tokens = query.Split(delimiterChars).ToList();
+
+            foreach (var sw in StopWords.words)
             {
-                return this._Query;
+                if (query.Contains(sw))
+                {
+                    tokens.RemoveAll(t => t.Equals(sw));
+                }
             }
+
+
+            this.Tokens = tokens.ToArray();
         }
+
+        public string[]? Tokens
+        {
+            get;
+            private set;
+        }
+
     }
 }

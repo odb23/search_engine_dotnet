@@ -2,6 +2,6 @@
 {
     public interface IIndexer
     {
-        bool IndexDocument(FileInfo doc);
+        IDocument? IndexDocument(FileInfo doc);
     }
 }

@@ -1,3 +1,4 @@
+using SearchEngine.API;
 using SearchEngine.API.Interfaces;
 using SearchEngine.API.Services;
 
@@ -11,6 +12,12 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddSingleton<IDocHandler, DocParseHandler>();
+builder.Services.AddSingleton<IDocumentService, DocumentService>(); 
+builder.Services.AddSingleton<IKeywordService, KeywordService>();
+builder.Services.AddSingleton<ISearchService, SearchService>();
+
+// Local Data Storage configuration.
+builder.Services.AddSingleton<IDbContext, DbContext>();
 
 var app = builder.Build();
 

@@ -1,5 +1,8 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using iText.Signatures;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using SearchEngine.API.Interfaces;
+using SearchEngine.API.Models;
 
 namespace SearchEngine.API.Controllers
 {
@@ -7,11 +10,19 @@ namespace SearchEngine.API.Controllers
     [ApiController]
     public class SearchController : ControllerBase
     {
+        private ISearchService SearchService;
+
+        public SearchController (ISearchService searchService)
+        {
+            this.SearchService = searchService; 
+        }
 
         [HttpGet("search")]
-        public string Get()
+        public IActionResult Get([FromQuery] string query)
         {
-            return "Ok";
+            var res = this.SearchService.GetSearchResult(new SearchQuery(query));
+            
+            return Ok(res); 
         }
 
 
