@@ -1,7 +1,5 @@
 ﻿using Quartz;
-using System.Reflection;
 using SearchEngine.API.Interfaces;
-using Microsoft.Extensions.Configuration;
 
 namespace SearchEngine.API.ExtractionJob
 {
