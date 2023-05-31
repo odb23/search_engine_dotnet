@@ -69,6 +69,11 @@ namespace SearchEngine.API.Models
 
         public int CompareTo(object? obj)
         {
+
+            if (obj == null)
+            {
+                return -1;
+            }
             DocKeywordOccurence Temp = (DocKeywordOccurence)obj;
             if (this.DocId < Temp.DocId)
             { return 1; }

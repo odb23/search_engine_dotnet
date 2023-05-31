@@ -2,7 +2,7 @@
 {
     public interface ISearchQuery
     {
-        string[] Tokens
+        string[]? Tokens
         {
             get;
         }

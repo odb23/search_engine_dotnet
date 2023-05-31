@@ -35,7 +35,7 @@ namespace SearchEngine.API.Services
             return docKeywordOccurrences;
         }
 
-        private List<IDocKeywordOccurrence> GetDocKeyOccurenceFromTokensInvertedList(List<List<IDocKeywordOccurrence>> tokensInvertedList)
+        private static List<IDocKeywordOccurrence> GetDocKeyOccurenceFromTokensInvertedList(List<List<IDocKeywordOccurrence>> tokensInvertedList)
         {
             List<IDocKeywordOccurrence> docIds;
 
@@ -52,17 +52,19 @@ namespace SearchEngine.API.Services
 
                 foreach (var tokenList in tokensInvertedList)
                 {
-                    _docIds.AddRange(tokenList);
+                    if (tokenList != null)
+                    {
+                        _docIds.AddRange(tokenList);
+                    }
                 }
 
                 // Find duplicates and merge occurrence.
                 docIds = FindAndMergeDuplicateDocKeyOccurence(_docIds);
-
             }
             return docIds;
         }
 
-        private List<IDocKeywordOccurrence> FindAndMergeDuplicateDocKeyOccurence(List<IDocKeywordOccurrence> docKeywordOccurrences)
+        private static List<IDocKeywordOccurrence> FindAndMergeDuplicateDocKeyOccurence(List<IDocKeywordOccurrence> docKeywordOccurrences)
         {
             List<IDocKeywordOccurrence> newOccurrences = new();
 

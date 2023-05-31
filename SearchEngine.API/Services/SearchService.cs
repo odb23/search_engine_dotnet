@@ -54,11 +54,10 @@ namespace SearchEngine.API.Services
 
                 res.Add(new SearchResult
                 {
-                   ResultDocument = new Document
+                   ResultDocument = new ResultDocument
                    {
                        Id = doc.Id,
                        Name= doc.Name,  
-                       Content = doc.Content,
                    },
                    DocKeywordOccurrence = t,
                 });

@@ -3,6 +3,6 @@
     public interface ISearchResult
     {
         IDocKeywordOccurrence? DocKeywordOccurrence { get; set; }
-        IDocument? ResultDocument { get; set; }
+        IResultDocument? ResultDocument { get; set; }
     }
 }

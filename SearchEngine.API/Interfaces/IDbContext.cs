@@ -5,7 +5,7 @@
         IDbDocument DbDocument { get; }
 
         void InitDbDocument();
-        IDbDocument LoadDatabase();
+        IDbDocument? LoadDatabase();
         void SaveDatabase();
     }
 }

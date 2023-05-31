@@ -13,7 +13,7 @@ namespace SearchEngine.API.Tests.Services
 
             string fileName = GetDataSourcePath() + @"\file.html";
 
-            DocParseHandler handler = new DocParseHandler();
+            DocParseHandler handler = new ();
 
             var res = handler.ExtractDataDocumentFromFile(fileName);
             Assert.IsAssignableFrom<IDocument>(res);
@@ -25,7 +25,7 @@ namespace SearchEngine.API.Tests.Services
 
             string fileName = GetDataSourcePath() + @"\file.xml";
 
-            DocParseHandler handler = new DocParseHandler();
+            DocParseHandler handler = new ();
 
             var res = handler.ExtractDataDocumentFromFile(fileName);
             Assert.IsAssignableFrom<IDocument>(res);
@@ -37,7 +37,7 @@ namespace SearchEngine.API.Tests.Services
 
             string fileName = GetDataSourcePath() + @"\file.pptx";
 
-            DocParseHandler handler = new DocParseHandler();
+            DocParseHandler handler = new();
 
             var res = handler.ExtractDataDocumentFromFile(fileName);
             Assert.IsAssignableFrom<IDocument>(res);
@@ -85,7 +85,7 @@ namespace SearchEngine.API.Tests.Services
 
             string fileName = GetDataSourcePath() + @"\file.txt";
 
-            DocParseHandler handler = new DocParseHandler();
+            DocParseHandler handler = new();
 
             var res = handler.ExtractDataDocumentFromFile(fileName);
             Assert.IsAssignableFrom<IDocument>(res);
@@ -120,12 +120,12 @@ namespace SearchEngine.API.Tests.Services
 
             string fileName = GetDataSourcePath() + @"\file.pdf";
 
-            DocParseHandler handler = new DocParseHandler();
+            DocParseHandler handler = new();
 
             var res = handler.ExtractDataDocumentFromFile(fileName);
             Assert.IsAssignableFrom<IDocument>(res);
         }
-        private string GetDataSourcePath()
+        private static string GetDataSourcePath()
         {
 
             string dir = Directory.GetCurrentDirectory().Replace("\\bin\\Debug\\net7.0", "");
@@ -138,7 +138,7 @@ namespace SearchEngine.API.Tests.Services
         {
             string fileName = "anyfile.html";
 
-            DocParseHandler handler = new DocParseHandler();
+            DocParseHandler handler = new();
 
           
             Assert.Throws<FileNotFoundException>(() =>
@@ -149,7 +149,7 @@ namespace SearchEngine.API.Tests.Services
         {
             string fileName = "anyfile.xxhtml";
 
-            DocParseHandler handler = new DocParseHandler();
+            DocParseHandler handler = new();
 
 
             Assert.Throws<InvalidFileTypeException> (() =>
@@ -160,7 +160,7 @@ namespace SearchEngine.API.Tests.Services
         {
             string fileName = "anyfile.html";
 
-            DocParseHandler handler = new DocParseHandler();
+            DocParseHandler handler = new();
             var res = handler.GetValidExtractor(fileName);
 
             Assert.NotNull(res);
@@ -173,7 +173,7 @@ namespace SearchEngine.API.Tests.Services
         {
             string fileName = "anyfile.ppt";
 
-            DocParseHandler handler = new DocParseHandler();
+            DocParseHandler handler = new();
             var res = handler.GetValidExtractor(fileName);
 
             Assert.NotNull(res);
@@ -186,7 +186,7 @@ namespace SearchEngine.API.Tests.Services
         {
             string fileName = "anyfile.xml";
 
-            DocParseHandler handler = new DocParseHandler();
+            DocParseHandler handler = new();
             var res = handler.GetValidExtractor(fileName);
 
             Assert.NotNull(res);
@@ -198,7 +198,7 @@ namespace SearchEngine.API.Tests.Services
         {
             string fileName = "anyfile.txt";
 
-            DocParseHandler handler = new DocParseHandler();
+            DocParseHandler handler = new();
             var res = handler.GetValidExtractor(fileName);
 
             Assert.NotNull(res);
@@ -210,7 +210,7 @@ namespace SearchEngine.API.Tests.Services
         {
             string fileName = "anyfile.docx";
 
-            DocParseHandler handler = new DocParseHandler();
+            DocParseHandler handler = new();
             var res = handler.GetValidExtractor(fileName);
 
             Assert.NotNull(res);
@@ -223,7 +223,7 @@ namespace SearchEngine.API.Tests.Services
         {
             string fileName = "anyfile.pdf";
 
-            DocParseHandler handler = new DocParseHandler();
+            DocParseHandler handler = new();
             var res = handler.GetValidExtractor(fileName);
 
             Assert.NotNull(res);
@@ -235,7 +235,7 @@ namespace SearchEngine.API.Tests.Services
         {
             string fileName = "invalidFile.tcxt";
 
-            DocParseHandler handler = new DocParseHandler();
+            DocParseHandler handler = new();
 
             var result = handler.GetValidExtractor(fileName);
 
