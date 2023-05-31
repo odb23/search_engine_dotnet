@@ -4,7 +4,7 @@
     {
         public static readonly string[] types =
         {
-            "pdf", "doc", "docx", "ppt", "ppts", "xls", "xlsx", "txt", "html", "xml"
+            ".pdf", ".doc", ".docx", ".ppt", ".pptx", ".xls", ".xlsx", ".txt", ".html", ".xml"
         };
     }
 }

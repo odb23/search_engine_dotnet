@@ -2,6 +2,6 @@
 {
     public interface IDocParser
     {
-        IDocument? ExtractDataToDocument(FileInfo file);
+        IDocument? ExtractDataToDocument(string file);
     }
 }

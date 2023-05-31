@@ -4,7 +4,7 @@ namespace SearchEngine.API.Services
 {
     public class KeywordService : IKeywordService
     {
-        private IDbContext DbContext;
+        private readonly IDbContext DbContext;
         public KeywordService(IDbContext dbContext) {
             this.DbContext = dbContext;
         }

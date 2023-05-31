@@ -2,17 +2,40 @@
 
 namespace SearchEngine.API.Services
 {
-    public class Ranker
+    public class Ranker : IRanker
     {
-        public static List<IDocKeywordOccurrence> RankDocsByKeywordOccurrence(List<List<IDocKeywordOccurrence>> tokensInvertedList)
+        private readonly IKeywordService KeywordService;
+        public Ranker(IKeywordService keywordService)
+        {
+            this.KeywordService = keywordService;
+        }
+
+        public List<List<IDocKeywordOccurrence>>? GetTokensInvertedList(string[] tokens)
+        {
+            List<List<IDocKeywordOccurrence>> tokensInvertedIndex = new();
+
+            // get inverted index for every token.
+            foreach (var token in tokens)
+            {
+                var t_invertedIndex = this.KeywordService.GetDocKeywordOccurrences(token);
+                tokensInvertedIndex.Add(t_invertedIndex);
+            }
+
+            return tokensInvertedIndex;
+        }
+        public List<IDocKeywordOccurrence>? RankDocsByKeywordOccurrence(List<List<IDocKeywordOccurrence>> tokensInvertedList)
         {
             List<IDocKeywordOccurrence> docKeywordOccurrences = GetDocKeyOccurenceFromTokensInvertedList(tokensInvertedList);
+            if (docKeywordOccurrences == null)
+            {
+                return null;
+            }
             docKeywordOccurrences.Sort((a, b) => a.Occurrence.CompareTo(b.Occurrence));
             docKeywordOccurrences.Reverse();
             return docKeywordOccurrences;
         }
 
-        private static List<IDocKeywordOccurrence> GetDocKeyOccurenceFromTokensInvertedList(List<List<IDocKeywordOccurrence>> tokensInvertedList)
+        private List<IDocKeywordOccurrence> GetDocKeyOccurenceFromTokensInvertedList(List<List<IDocKeywordOccurrence>> tokensInvertedList)
         {
             List<IDocKeywordOccurrence> docIds;
 
@@ -39,7 +62,7 @@ namespace SearchEngine.API.Services
             return docIds;
         }
 
-        private static List<IDocKeywordOccurrence> FindAndMergeDuplicateDocKeyOccurence(List<IDocKeywordOccurrence> docKeywordOccurrences)
+        private List<IDocKeywordOccurrence> FindAndMergeDuplicateDocKeyOccurence(List<IDocKeywordOccurrence> docKeywordOccurrences)
         {
             List<IDocKeywordOccurrence> newOccurrences = new();
 

@@ -9,7 +9,7 @@ namespace SearchEngine.API
     {
         private readonly IConfiguration Configuration;
         private readonly string dbPath = "db.json";
-        public DbDocument DbDocument { get; private set; }
+        public IDbDocument DbDocument { get; private set; }
 
         public DbContext(IConfiguration configuration)
         {
@@ -32,7 +32,7 @@ namespace SearchEngine.API
         {
             get
             {
-                return JsonSerializer.Serialize<DbDocument>(this.DbDocument, new JsonSerializerOptions
+                return JsonSerializer.Serialize<IDbDocument>(this.DbDocument, new JsonSerializerOptions
                 {
                     WriteIndented = true,
                     PropertyNamingPolicy = JsonNamingPolicy.CamelCase
@@ -54,13 +54,22 @@ namespace SearchEngine.API
                 return confDSPath;
             }
 
-            return Path.GetDirectoryName(Assembly.GetEntryAssembly()!.Location)!;
+            string dir = Directory.GetCurrentDirectory().Replace("\\bin\\Debug", "");
+
+          return Path.Join(dir, "Database");
         }
 
-        public DbDocument LoadDatabase()
+        public IDbDocument? LoadDatabase()
         {
             string directoryPath = Path.Join(GetDataSourcePath(), dbPath);
+
+            if (!File.Exists(directoryPath))
+            {
+                return null;
+            }
+
             string jsonString = File.ReadAllText(directoryPath);
+
 
             // Deserialize the JSON to an object
             return JsonSerializer.Deserialize<DbDocument>(jsonString)!;

@@ -6,12 +6,12 @@ namespace SearchEngine.API.Services.Parsers
 {
     public class WordDocParser : DocParser
     {
-        public override IDocument? ExtractDataToDocument(FileInfo file)
+        public override IDocument? ExtractDataToDocument(string file)
         {
             return new Models.Document
             {
-                Name = file.Name,
-                Content = GetTextFromWord(file.FullName)
+                Name = file,
+                Content = GetTextFromWord(file)
             };
         }
 

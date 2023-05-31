@@ -6,19 +6,19 @@ namespace SearchEngine.API.Services.Parsers
 {
     public class XmlParser : DocParser
     {
-        public override IDocument? ExtractDataToDocument(FileInfo file)
+        public override IDocument? ExtractDataToDocument(string file)
         {
             return new Document
             {
-                Name = file.Name,
+                Name = file,
                 Content = GetTextFromXMLFile(file)
             };
         }
 
-        private static string GetTextFromXMLFile (FileInfo file)
+        private static string GetTextFromXMLFile (string file)
         {
             XmlDocument xmlDoc = new();
-            xmlDoc.Load(file.Create());
+            xmlDoc.Load(file);
 
             string xmlString = xmlDoc.OuterXml;
             return xmlString;

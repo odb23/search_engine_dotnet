@@ -9,21 +9,21 @@ namespace SearchEngine.API.Services.Parsers
 {
     public class PowerPointParser : DocParser
     {
-        public override IDocument? ExtractDataToDocument(FileInfo file)
+        public override IDocument? ExtractDataToDocument(string file)
         {
             return new Document
             {
-                Name = file.Name,
+                Name = file,
                 Content = GetTextContentFromPowerPointFile(file)
             };
         }
 
-        public static string GetTextContentFromPowerPointFile(FileInfo file)
+        public static string GetTextContentFromPowerPointFile(string file)
         {
 
             StringBuilder textContent = new();
 
-            using (PresentationDocument ppt = PresentationDocument.Open(file.FullName, false))
+            using (PresentationDocument ppt = PresentationDocument.Open(file, false))
             {
                 // Get the relationship ID of the first slide.
                 PresentationPart? pptPart = ppt.PresentationPart;

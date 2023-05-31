@@ -2,6 +2,6 @@
 {
     public interface ISearchService
     {
-        IList<ISearchResult> GetSearchResult(ISearchQuery query);
+        List<ISearchResult> GetSearchResult(ISearchQuery query);
     }
 }

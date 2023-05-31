@@ -2,7 +2,7 @@
 {
     public interface IDocumentService
     {
-        void AddDocument(IDocument document);
+        bool AddDocument(IDocument document);
         IDocument GetDocumentById(int id);
     }
 }

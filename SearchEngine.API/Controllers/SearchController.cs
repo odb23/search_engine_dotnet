@@ -10,7 +10,7 @@ namespace SearchEngine.API.Controllers
     [ApiController]
     public class SearchController : ControllerBase
     {
-        private ISearchService SearchService;
+        private readonly ISearchService SearchService;
 
         public SearchController (ISearchService searchService)
         {
@@ -26,10 +26,10 @@ namespace SearchEngine.API.Controllers
         }
 
 
-        [HttpPost("upload")]
+       /* [HttpPost("upload")]
         public string UploadDocument([FromBody] FileInfo file)
         {
             return "Upload";
-        }
+        }*/
     }
 }

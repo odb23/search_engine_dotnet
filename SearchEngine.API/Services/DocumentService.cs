@@ -9,10 +9,11 @@ namespace SearchEngine.API.Services
             this.DbContext = dbContext;
         } 
         
-        public void AddDocument (IDocument doc)
+        public bool AddDocument (IDocument doc)
         {
-            this.DbContext.DbDocument.AddDocument(doc);
-            this.DbContext.SaveDatabase();
+            var res = this.DbContext.DbDocument.AddDocument(doc);
+            if (res)  this.DbContext.SaveDatabase();
+            return res;
         }
         public IDocument GetDocumentById (int id)
         {

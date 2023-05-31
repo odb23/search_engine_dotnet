@@ -7,12 +7,13 @@ namespace SearchEngine.API.Services
 {
     public class DocParseHandler : IDocHandler
     {
-        private static bool IsValidFile(FileInfo file)
+        private static bool IsValidFile(string file)
         {
-            return ValidFileTypes.types.Contains(file.Extension);
+            var extension = Path.GetExtension(file);
+            return ValidFileTypes.types.Contains(extension);
         }
 
-        public IDocument ExtractDataDocumentFromFile(FileInfo file)
+        public IDocument ExtractDataDocumentFromFile(string file)
         {
             IDocParser? parser = this.GetValidExtractor(file) ?? 
                                 throw new InvalidFileTypeException("Invalid File Format! File cannot be parsed.");
@@ -21,11 +22,12 @@ namespace SearchEngine.API.Services
             return _doc;
         }
 
-        public IDocParser? GetValidExtractor(FileInfo file)
+        public IDocParser? GetValidExtractor(string file)
         {
             if (!IsValidFile(file)) return null;
 
-            return file.Extension switch
+            var extension = Path.GetExtension(file);    
+            return extension switch
             {
                 ".html" => new HTMLParser(),
                 ".pdf" => new PdfParser(),

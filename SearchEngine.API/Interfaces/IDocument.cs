@@ -5,7 +5,7 @@
         int Id { get; set; }
         string? Name { get; set; }
         string? Content { get; set; }
-        IDictionary<string, int> Keywords { get;}
+        Dictionary<string, int> Keywords { get;}
         void AddorUpdateKeywordOccurenece(string keyword);
     }
 }

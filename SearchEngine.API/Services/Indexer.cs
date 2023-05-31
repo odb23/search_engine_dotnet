@@ -8,12 +8,15 @@ namespace SearchEngine.API.Services
     {
         private readonly IDocHandler DocHandler;
         private readonly IDocumentService DocumentService;
+        private readonly IKeywordService KeywordService;
 
-        public Indexer(IDocHandler docHandler, IDocumentService docService) {
-            this.DocHandler = docHandler; 
-            this.DocumentService = docService; 
+        public Indexer(IDocHandler docHandler, IDocumentService docService, IKeywordService keywordService)
+        {
+            this.DocHandler = docHandler;
+            this.DocumentService = docService;
+            this.KeywordService = keywordService;
         }
-        public IDocument? IndexDocument(FileInfo doc)
+        public void IndexDocument(string doc)
         {
             // Validate Document type using DocParsehandler and Extract Data into Document representation
             // throw Error if documnet is empty
@@ -21,16 +24,33 @@ namespace SearchEngine.API.Services
             try
             {
                 fileDocument = this.DocHandler.ExtractDataDocumentFromFile(doc);
-                this.HandleDocumentIndexing(fileDocument);
+                var res = this.HandleDocumentIndexing(fileDocument);
+                if (res) this.HandleKeywordsIndexing(fileDocument);
             } catch (InvalidFileTypeException ex)
             {
-                return null;
+                throw ex;
             }
-
-            return fileDocument;
         }
 
-        private void HandleDocumentIndexing (IDocument doc)
+        private void HandleKeywordsIndexing (IDocument doc)
+        {
+            if (doc == null)
+            {
+                return;
+            }
+
+            if (doc.Keywords == null)
+            {
+                return;
+            }
+
+            foreach (string word in doc.Keywords.Keys)
+            {
+                KeywordService.AddOrUpdateKeyWord(word, doc.Id, doc.Keywords[word]);
+            }
+        }
+
+        private bool HandleDocumentIndexing (IDocument doc)
         {
             var tokens = SplitDocumentContentIntoCleanTokens(doc.Content!);
 
@@ -38,7 +58,7 @@ namespace SearchEngine.API.Services
                 doc.AddorUpdateKeywordOccurenece(token);
             }
 
-            this.DocumentService.AddDocument(doc);
+             return this.DocumentService.AddDocument(doc);
         }
 
         private static List<string> SplitDocumentContentIntoCleanTokens (string content)

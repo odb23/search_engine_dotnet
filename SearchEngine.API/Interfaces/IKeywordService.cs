@@ -3,6 +3,6 @@
     public interface IKeywordService
     {
         void AddOrUpdateKeyWord(string keyword, int docId, int occurrence);
-        IList<IDocKeywordOccurrence> GetDocKeywordOccurrences(string token);
+        List<IDocKeywordOccurrence> GetDocKeywordOccurrences(string token);
     }
 }

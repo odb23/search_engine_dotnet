@@ -6,12 +6,19 @@ namespace SearchEngine.API.Models
     public class DbDocument : IDbDocument
     {
         public int DocIdCounter { get; set; } = 0;
-        public Dictionary<string, List<IDocKeywordOccurrence>> Keywords { get; set; } = new();
+        public Dictionary<string, List<IDocKeywordOccurrence>> Keywords { get; set; } = new ();
         public Dictionary<int, IDocument> Documents { get; set; } = new();
-      
-        public void AddDocument(IDocument doc)
+
+        public bool AddDocument(IDocument doc)
         {
-            this.Documents.Add(this.DocIdCounter++, doc);
+            var docExist = Documents.Values.Any(t => t.Name == doc.Name);
+            if (docExist)
+            {
+                return false;
+            }
+            doc.Id = DocIdCounter++;
+            this.Documents.Add(doc.Id, doc);
+            return true;
         }
 
         public IDocument GetDocById (int id)

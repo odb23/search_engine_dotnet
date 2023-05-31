@@ -3,7 +3,7 @@ namespace SearchEngine.API.Interfaces
 {
     public interface IDocHandler
     {
-        IDocument ExtractDataDocumentFromFile(FileInfo file);
-        IDocParser? GetValidExtractor (FileInfo file);
+        IDocument ExtractDataDocumentFromFile(string file);
+        IDocParser? GetValidExtractor (string file);
     }
 }

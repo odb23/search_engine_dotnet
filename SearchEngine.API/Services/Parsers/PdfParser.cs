@@ -10,18 +10,18 @@ namespace SearchEngine.API.Services.Parsers
 {
     public class PdfParser : DocParser
     {
-        public override IDocument? ExtractDataToDocument(FileInfo file)
+        public override IDocument? ExtractDataToDocument(string file)
         {
             string content = ExtractTextFromPdf(file);
 
             return new Document
             {
-                Name = file.Name,
+                Name = file,
                 Content = content
             };
         }
 
-        private static string ExtractTextFromPdf(FileInfo file)
+        private static string ExtractTextFromPdf(string file)
         {
             StringBuilder pageText = new();
 

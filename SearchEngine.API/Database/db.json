@@ -1,0 +1,8295 @@
+{
+  "documents": {
+    "0": {
+      "id": 0,
+      "name": "C:\\Users\\HP\\Desktop\\search_engine_dotnet\\SearchEngine.API\\Database\\Files\\L0 CSS322-Introduction.pptx",
+      "content": "CSC322: A MODERN PROGRAMMING LANGUAGEDr. Victor T. OdumuyiwaMr. Sola EdagbamiGeneral INFORMATIONInstructorDr. Victor Odumuyiwa, Room 112 (Computer Science building),vodumuyiwa@unilag.edu.ng,Office hours: Tuesday 2-3pmMr. Sola EdagbamiTAs: \u00A0Lecture: Monday 9:00 -11:00 (NITDA IT Hub)Recitation/Lab: Wednesday 14:00-16:00 (E303/Lab203)ExpectationsYour attendance in the lectures and recitations is very important. I expect that every student should be in class at most 5 minutes after the start time. Late coming causes distractions so your punctuality will be highly appreciated. You are expected to attend classes with your laptops but they should remain closed until activity time.In your prospective\u201CA contemporary programming language should be taught in as much detail as available\u201DCourse descriptionToday\u2019s world is driven by software and definitely the future will be as well. Designing and developing good and efficient software to solve problems and enhance productivity cannot be overemphasized. This course is designed to expose you to software construction and some best practices that will turn you to good developers. The main focus is on Object Oriented Design (OOD) and its implementation using an Object Oriented Programming (OOP) language like C#. Students will be introduced to the .NET framework and a modern software development environment specifically Visual Studio. Concepts like abstraction, inheritance, polymorphism, classes, objects, mutability, and exceptions will be taught. Ability to memorize definitions or facts will be of no help in this course but ability to conceptualize solutions to problem will be of great help.Learning outcomesAt the end of this course, students should be able to:Write applications that are safe from bugs, easy to understand and ready for changeDesign software systems using OODDevelop software using .NET framework and C#Evaluate software program according to OO principlesCreate Abstract Data Types for extensible software developmentCOURSE CONTENTIntroduction to .NET Framework and Visual Studio.NET EnvironmentC# Syntax Types SpecificationsDefensive programmingTest-first programmingGenericsCollectionsAbstract Data typeInheritanceDelegates \u2013 Lambda LINQGraphical User InterfaceSchedule\u00A0Week/Date\u00A0Lecture\u00A0Readings\u00A0PSets\u00A0Lecturer1Introduction, .Net FrameworkChapt. 1Dr Odumuyiwa2Basic Coding/C# SyntaxChapt. 2Mr. Edagbami3TypesChapt. 3Mr. Edagbami4Specification\u00A0Dr Odumuyiwa5Defensive Programming and Exceptions\u00A0Dr Odumuyiwa6Test First Programming\u00A0Dr Odumuyiwa7GenericChapt. 4Bank App project (Individual)Mr. EdagbamiSchedule\u00A0Week/Date\u00A0Lecture\u00A0Readings\u00A0PSets\u00A0Lecturer8CollectionsChapt. 5Project(Group, 3 in a group)Dr Odumuyiwa9ADT\u00A0Dr Odumuyiwa10InheritanceChapt. 6Mr. Edagbami11Delegate-LambdaChapt. 9Dr Odumuyiwa12LINQChapt. 10Dr Odumuyiwa13Graphical User InterfaceMr. EdagbamiRECOMMENDED TEXTSlan Griffiths. Program C# 5.0Kurt Normark. Object-oriented Programming in C# for C and Java programmersErich Gamma, Richard Helm, Ralph E. Johnson, John Vlissides - Design Patterns: Elements of Reusable Object-Oriented SoftwarePeter Coad and Edward Yourdon. Object Oriented DesignMcConnell, Steve.\u00A0Code complete. Pearson Education, 2004.Grading POLICY (1/2)Your grade in this course will be based on your performance in the problem sets (assignments), the individual project, the group project and the final examination. The overall grade is determined as follows:10% Problem setsProblem sets will be released progressively during the semester. Any act of copying or plagiarism will be penalized (zero mark). The problem sets are to be solved independently. You may collaborate with other students on your problem sets to come up with implementation ideas but the codes you are submitting must have be written by you and should be unique.10% Individual projectTowards the middle of the semester, you will be given individual project topics which you are expected to spend about two weeks working on.  Copying code or solutions from the Internet or any source whatsoever is not allowed. Any violation will be penalized (zero mark).Grading POLICY (2/2)20% Group projectGroup project afford you the opportunity to collaborate in designing and developing software. Every group member should participate extensively in the group activity. You will have to present your project before the whole class. You will be expected to respond to questions from the instructor, the TAs and your fellow students. Grading will be based on the overall performance of the group and on the individual performance in the group. This means that it is not mandatory that everybody in a group get the same grade in the project.60% ExaminationThe final examination will come up at the end of the semester. It is meant to evaluate your knowledge of the course. You will be tested on your ability to design solutions to problems using OOD.",
+      "keywords": {
+        "CSC322": 1,
+        "A": 1,
+        "MODERN": 1,
+        "PROGRAMMING": 1,
+        "LANGUAGEDr": 1,
+        "Victor": 2,
+        "T": 1,
+        "OdumuyiwaMr": 1,
+        "Sola": 2,
+        "EdagbamiGeneral": 1,
+        "INFORMATIONInstructorDr": 1,
+        "Odumuyiwa": 1,
+        "Room": 1,
+        "112": 1,
+        "(Computer": 1,
+        "Science": 1,
+        "building)": 1,
+        "vodumuyiwa@unilag": 1,
+        "edu": 1,
+        "ng": 1,
+        "Office": 1,
+        "hours": 1,
+        "Tuesday": 1,
+        "2-3pmMr": 1,
+        "EdagbamiTAs": 1,
+        "\u00A0Lecture": 1,
+        "Monday": 1,
+        "9": 1,
+        "00": 3,
+        "-11": 1,
+        "(NITDA": 1,
+        "IT": 1,
+        "Hub)Recitation/Lab": 1,
+        "Wednesday": 1,
+        "14": 1,
+        "00-16": 1,
+        "(E303/Lab203)ExpectationsYour": 1,
+        "attendance": 1,
+        "lectures": 1,
+        "recitations": 1,
+        "very": 1,
+        "important": 1,
+        "I": 1,
+        "expect": 1,
+        "every": 1,
+        "student": 1,
+        "should": 6,
+        "class": 2,
+        "most": 1,
+        "5": 2,
+        "minutes": 1,
+        "start": 1,
+        "time": 2,
+        "Late": 1,
+        "coming": 1,
+        "causes": 1,
+        "distractions": 1,
+        "your": 9,
+        "punctuality": 1,
+        "will": 17,
+        "highly": 1,
+        "appreciated": 1,
+        "You": 5,
+        "expected": 3,
+        "attend": 1,
+        "classes": 2,
+        "laptops": 1,
+        "they": 1,
+        "remain": 1,
+        "closed": 1,
+        "activity": 2,
+        "In": 1,
+        "prospective\u201CA": 1,
+        "contemporary": 1,
+        "programming": 1,
+        "language": 2,
+        "taught": 2,
+        "much": 1,
+        "detail": 1,
+        "available\u201DCourse": 1,
+        "descriptionToday\u2019s": 1,
+        "world": 1,
+        "driven": 1,
+        "software": 9,
+        "definitely": 1,
+        "future": 1,
+        "well": 1,
+        "Designing": 1,
+        "developing": 2,
+        "good": 2,
+        "efficient": 1,
+        "solve": 1,
+        "problems": 2,
+        "enhance": 1,
+        "productivity": 1,
+        "cannot": 1,
+        "overemphasized": 1,
+        "This": 2,
+        "course": 5,
+        "designed": 1,
+        "expose": 1,
+        "you": 7,
+        "construction": 1,
+        "some": 1,
+        "best": 1,
+        "practices": 1,
+        "turn": 1,
+        "developers": 1,
+        "The": 3,
+        "main": 1,
+        "focus": 1,
+        "Object": 3,
+        "Oriented": 3,
+        "Design": 2,
+        "(OOD)": 1,
+        "its": 1,
+        "implementation": 2,
+        "using": 4,
+        "Programming": 3,
+        "(OOP)": 1,
+        "like": 2,
+        "C#": 3,
+        "Students": 1,
+        "introduced": 1,
+        "NET": 4,
+        "framework": 2,
+        "modern": 1,
+        "development": 1,
+        "environment": 1,
+        "specifically": 1,
+        "Visual": 2,
+        "Studio": 2,
+        "Concepts": 1,
+        "abstraction": 1,
+        "inheritance": 1,
+        "polymorphism": 1,
+        "objects": 1,
+        "mutability": 1,
+        "exceptions": 1,
+        "Ability": 1,
+        "memorize": 1,
+        "definitions": 1,
+        "facts": 1,
+        "no": 1,
+        "help": 2,
+        "ability": 2,
+        "conceptualize": 1,
+        "solutions": 3,
+        "problem": 4,
+        "great": 1,
+        "Learning": 1,
+        "outcomesAt": 1,
+        "end": 2,
+        "students": 3,
+        "able": 1,
+        "Write": 1,
+        "applications": 1,
+        "safe": 1,
+        "bugs": 1,
+        "easy": 1,
+        "understand": 1,
+        "ready": 1,
+        "changeDesign": 1,
+        "systems": 1,
+        "OODDevelop": 1,
+        "C#Evaluate": 1,
+        "program": 1,
+        "according": 1,
+        "OO": 1,
+        "principlesCreate": 1,
+        "Abstract": 1,
+        "Data": 2,
+        "Types": 2,
+        "extensible": 1,
+        "developmentCOURSE": 1,
+        "CONTENTIntroduction": 1,
+        "Framework": 1,
+        "EnvironmentC#": 1,
+        "Syntax": 1,
+        "SpecificationsDefensive": 1,
+        "programmingTest-first": 1,
+        "programmingGenericsCollectionsAbstract": 1,
+        "typeInheritanceDelegates": 1,
+        "\u2013": 1,
+        "Lambda": 1,
+        "LINQGraphical": 1,
+        "User": 2,
+        "InterfaceSchedule\u00A0Week/Date\u00A0Lecture\u00A0Readings\u00A0PSets\u00A0Lecturer1Introduction": 1,
+        "Net": 1,
+        "FrameworkChapt": 1,
+        "1Dr": 1,
+        "Odumuyiwa2Basic": 1,
+        "Coding/C#": 1,
+        "SyntaxChapt": 1,
+        "2Mr": 1,
+        "Edagbami3TypesChapt": 1,
+        "3Mr": 1,
+        "Edagbami4Specification\u00A0Dr": 1,
+        "Odumuyiwa5Defensive": 1,
+        "Exceptions\u00A0Dr": 1,
+        "Odumuyiwa6Test": 1,
+        "First": 1,
+        "Programming\u00A0Dr": 1,
+        "Odumuyiwa7GenericChapt": 1,
+        "4Bank": 1,
+        "App": 1,
+        "project": 7,
+        "(Individual)Mr": 1,
+        "EdagbamiSchedule\u00A0Week/Date\u00A0Lecture\u00A0Readings\u00A0PSets\u00A0Lecturer8CollectionsChapt": 1,
+        "5Project(Group": 1,
+        "3": 1,
+        "group)Dr": 1,
+        "Odumuyiwa9ADT\u00A0Dr": 1,
+        "Odumuyiwa10InheritanceChapt": 1,
+        "6Mr": 1,
+        "Edagbami11Delegate-LambdaChapt": 1,
+        "9Dr": 1,
+        "Odumuyiwa12LINQChapt": 1,
+        "10Dr": 1,
+        "Odumuyiwa13Graphical": 1,
+        "InterfaceMr": 1,
+        "EdagbamiRECOMMENDED": 1,
+        "TEXTSlan": 1,
+        "Griffiths": 1,
+        "Program": 1,
+        "0Kurt": 1,
+        "Normark": 1,
+        "Object-oriented": 1,
+        "C": 1,
+        "Java": 1,
+        "programmersErich": 1,
+        "Gamma": 1,
+        "Richard": 1,
+        "Helm": 1,
+        "Ralph": 1,
+        "E": 1,
+        "Johnson": 1,
+        "John": 1,
+        "Vlissides": 1,
+        "-": 1,
+        "Patterns": 1,
+        "Elements": 1,
+        "Reusable": 1,
+        "Object-Oriented": 1,
+        "SoftwarePeter": 1,
+        "Coad": 1,
+        "Edward": 1,
+        "Yourdon": 1,
+        "DesignMcConnell": 1,
+        "Steve": 1,
+        "\u00A0Code": 1,
+        "complete": 1,
+        "Pearson": 1,
+        "Education": 1,
+        "2004": 1,
+        "Grading": 3,
+        "POLICY": 2,
+        "(1/2)Your": 1,
+        "grade": 3,
+        "based": 2,
+        "performance": 3,
+        "sets": 4,
+        "(assignments)": 1,
+        "individual": 3,
+        "group": 6,
+        "final": 2,
+        "examination": 2,
+        "overall": 2,
+        "determined": 1,
+        "follows": 1,
+        "10%": 2,
+        "Problem": 1,
+        "setsProblem": 1,
+        "released": 1,
+        "progressively": 1,
+        "semester": 3,
+        "Any": 2,
+        "act": 1,
+        "copying": 1,
+        "plagiarism": 1,
+        "penalized": 2,
+        "(zero": 2,
+        "mark)": 2,
+        "solved": 1,
+        "independently": 1,
+        "may": 1,
+        "collaborate": 2,
+        "other": 1,
+        "come": 2,
+        "up": 2,
+        "ideas": 1,
+        "codes": 1,
+        "submitting": 1,
+        "must": 1,
+        "written": 1,
+        "unique": 1,
+        "Individual": 1,
+        "projectTowards": 1,
+        "middle": 1,
+        "given": 1,
+        "topics": 1,
+        "spend": 1,
+        "two": 1,
+        "weeks": 1,
+        "working": 1,
+        "Copying": 1,
+        "code": 1,
+        "Internet": 1,
+        "any": 1,
+        "source": 1,
+        "whatsoever": 1,
+        "allowed": 1,
+        "violation": 1,
+        "(2/2)20%": 1,
+        "Group": 1,
+        "projectGroup": 1,
+        "afford": 1,
+        "opportunity": 1,
+        "designing": 1,
+        "Every": 1,
+        "member": 1,
+        "participate": 1,
+        "extensively": 1,
+        "present": 1,
+        "whole": 1,
+        "respond": 1,
+        "questions": 1,
+        "instructor": 1,
+        "TAs": 1,
+        "fellow": 1,
+        "means": 1,
+        "mandatory": 1,
+        "everybody": 1,
+        "get": 1,
+        "same": 1,
+        "60%": 1,
+        "ExaminationThe": 1,
+        "It": 1,
+        "meant": 1,
+        "evaluate": 1,
+        "knowledge": 1,
+        "tested": 1,
+        "design": 1,
+        "OOD": 1
+      }
+    },
+    "1": {
+      "id": 1,
+      "name": "C:\\Users\\HP\\Desktop\\search_engine_dotnet\\SearchEngine.API\\Database\\Files\\L1-dotNETFramework.pptx",
+      "content": "Rajeswari IndupuriIntroduction to .NET Framework.NET \u2013 What Is It?Software platformLanguage neutralIn other words:   .NET is not a language (Runtime and a library for writing and executing written programs in any compliant language)What Is .NET.Net is a new framework for developing web-based and windows-based applications within the Microsoft environment.The framework offers a fundamental shift in Microsoft strategy: it moves application development from client-centric to server-centric..NET \u2013 What Is It?Operating System \u002B Hardware.NET Framework.NET ApplicationBase Class LibraryCommon Language SpecificationCommon Language RuntimeADO.NET: Data and XMLVBVC\u002B\u002BVC#Visual Studio.NETASP.NET: Web Servicesand Web FormsJScript\u2026WindowsFormsFramework, Languages, And ToolsThe .NET Framework.NET Framework ServicesCommon Language RuntimeWindows\u00AE FormsASP.NETWeb FormsWeb ServicesADO.NET, evolution of ADOVisual Studio.NETCommon Language Runtime (CLR)CLR works like a virtual machine in executing all languages.  All .NET languages must obey the rules and standards imposed by CLR. Examples:Object declaration, creation and useData types,language librariesError and exception handlingInteractive Development Environment (IDE)Common Language RuntimeDevelopmentMixed language applicationsCommon Language Specification (CLS)Common Type System (CTS)Standard class frameworkAutomatic memory managementConsistent error handling and safer executionPotentially multi-platformDeployment\tRemoval of registration dependencySafety \u2013 fewer versioning problemsCommon Language RuntimeMultiple Language SupportCTS is a rich type system built into the CLRImplements various types (int, double, etc)And operations on those typesCLS is a set of specifications that language and library designers need to followThis will ensure interoperability between languagesCompilation in .NETCode in VB.NETCode in C#Code in another .NET LanguageVB.NET compilerC# compilerAppropriateCompilerIL(IntermediateLanguage) codeCLR just-in-timeexecutionIntermediate Language (IL).NET languages are not compiled to machine code.  They are compiled to an Intermediate Language (IL).CLR accepts the IL code and recompiles it to machine code.  The recompilation is just-in-time (JIT) meaning it is done as soon as a function or subroutine is called.The JIT code stays in memory for subsequent calls.  In cases where there is not enough memory it is discarded thus making JIT process interpretive.LanguagesLanguages provided by MSVB, C\u002B\u002B, C#, J#, JScriptThird-parties are buildingAPL, COBOL, Pascal, Eiffel, Haskell, ML, Oberon, Perl, Python, Scheme, Smalltalk\u2026Windows FormsFramework for Building Rich ClientsRAD (Rapid Application Development)Rich set of controlsData awareActiveX\u00AE SupportLicensingAccessibilityPrinting supportUnicode supportUI inheritanceASP.NETASP.NET - the platform services that allow to program Web Applications and Web Services in any .NET languageASP.NET uses .NET languages to generate HTML pages. HTML page is targeted to the capabilities of the requesting BrowserASP.NET \u201CProgram\u201D is compiled into a .NET class and cached the first time it is called.  All subsequent calls use the cached version.ASP.NETLogical Evolution of ASPSupports multiple languagesImproved performanceControl-based, event-driven execution modelMore productiveCleanly encapsulated functionalityASP.NET Web FormsAllows clean cut codeCode-behind Web FormsEasier for tools to generateCode within is compiled then executed Improved handling of state informationSupport for ASP.NET server controlsData validationData bound gridsASP.NET Web ServicesA technical definition\u201CA programmable application component accessible via standard Web protocols\u201DWeb ServicesIt is just an application\u2026\u2026that exposes its features and capabilities over the network\u2026\u2026using XML\u2026\u2026to allow for the creation of powerful new applications that are more than the sum of their parts\u2026ADO.NET(Data and XML)New objects (e.g., DataSets)Separates connected / disconnected\u00A0issuesLanguage neutral data accessUses same types as CLRGreat support for XMLVisual Studio.NETDevelopment tool that contains a rich set of productivity and debugging features.NET \u2013 Hierarchy, Another ViewCLRCLRSummaryThe .NET FrameworkDramatically simplifies development and deploymentProvides robust and secure execution environmentSupports multiple programming languagesComparison between J2EE and .NETComparison between J2EE and .NET ArchitecturesJ2EE and .NETExecution EngineJ2EE\t\tJava source code compiles into machine-independent byte code\t\tRuntime Environment : JVM.NET\t\tAny compliant language compiles into MSIL\t\tRuntime environment : CLR     Both JVM and CLR ,support services, such as code verification, memory management via garbage collection, and code securityJ2EE and .NETCross Platform PortabilityJ2EE\t\tPlatform Independent \t\tJDK should exist on target machine.NET\t\tSupports Windows platform\t\tCLR should exist on target machine \t\tCan support other platforms provided it has its own JIT \tcomplier     J2EE and .NETLanguage SupportJ2EE\t\tTied to Java \t\tSupports other languages via interface technology.NET\t\tLanguage independent\t\tSupports any language if mapping  exists from that\t       language  to ILJ2EE and .NETTools SupportJ2EE\t\tCan employ any number of tools\t\tPro    :Developer has a great deal of choice\t\tCon   :Difficulty in choosing a right tool for a given job.NET\t\tVisual Studio.NET, single IDE for building an application",
+      "keywords": {
+        "Rajeswari": 1,
+        "IndupuriIntroduction": 1,
+        "NET": 33,
+        "Framework": 4,
+        "\u2013": 4,
+        "What": 2,
+        "Is": 3,
+        "It?Software": 1,
+        "platformLanguage": 1,
+        "neutralIn": 1,
+        "other": 3,
+        "words": 1,
+        "language": 7,
+        "(Runtime": 1,
+        "library": 2,
+        "writing": 1,
+        "executing": 2,
+        "written": 1,
+        "programs": 1,
+        "any": 4,
+        "compliant": 2,
+        "language)What": 1,
+        "Net": 1,
+        "new": 2,
+        "framework": 2,
+        "developing": 1,
+        "web-based": 1,
+        "windows-based": 1,
+        "applications": 2,
+        "within": 2,
+        "Microsoft": 2,
+        "environment": 2,
+        "The": 3,
+        "offers": 1,
+        "fundamental": 1,
+        "shift": 1,
+        "strategy": 1,
+        "moves": 1,
+        "application": 3,
+        "development": 2,
+        "client-centric": 1,
+        "server-centric": 1,
+        "It?Operating": 1,
+        "System": 2,
+        "\u002B": 1,
+        "Hardware": 1,
+        "ApplicationBase": 1,
+        "Class": 1,
+        "LibraryCommon": 1,
+        "Language": 11,
+        "SpecificationCommon": 1,
+        "RuntimeADO": 1,
+        "Data": 1,
+        "XMLVBVC\u002B\u002BVC#Visual": 1,
+        "Studio": 4,
+        "NETASP": 2,
+        "Web": 8,
+        "Servicesand": 1,
+        "FormsJScript\u2026WindowsFormsFramework": 1,
+        "Languages": 1,
+        "And": 1,
+        "ToolsThe": 1,
+        "ServicesCommon": 1,
+        "RuntimeWindows\u00AE": 1,
+        "FormsASP": 1,
+        "NETWeb": 1,
+        "FormsWeb": 1,
+        "ServicesADO": 1,
+        "evolution": 1,
+        "ADOVisual": 1,
+        "NETCommon": 1,
+        "Runtime": 3,
+        "(CLR)CLR": 1,
+        "works": 1,
+        "like": 1,
+        "virtual": 1,
+        "machine": 5,
+        "all": 1,
+        "languages": 5,
+        "All": 2,
+        "must": 1,
+        "obey": 1,
+        "rules": 1,
+        "standards": 1,
+        "imposed": 1,
+        "CLR": 5,
+        "Examples": 1,
+        "Object": 1,
+        "declaration": 1,
+        "creation": 2,
+        "useData": 1,
+        "types": 3,
+        "librariesError": 1,
+        "exception": 1,
+        "handlingInteractive": 1,
+        "Development": 1,
+        "Environment": 2,
+        "(IDE)Common": 1,
+        "RuntimeDevelopmentMixed": 1,
+        "applicationsCommon": 1,
+        "Specification": 1,
+        "(CLS)Common": 1,
+        "Type": 1,
+        "(CTS)Standard": 1,
+        "class": 2,
+        "frameworkAutomatic": 1,
+        "memory": 4,
+        "managementConsistent": 1,
+        "error": 1,
+        "handling": 2,
+        "safer": 1,
+        "executionPotentially": 1,
+        "multi-platformDeployment": 1,
+        "Removal": 1,
+        "registration": 1,
+        "dependencySafety": 1,
+        "fewer": 1,
+        "versioning": 1,
+        "problemsCommon": 1,
+        "RuntimeMultiple": 1,
+        "SupportCTS": 1,
+        "rich": 2,
+        "type": 1,
+        "system": 1,
+        "built": 1,
+        "CLRImplements": 1,
+        "various": 1,
+        "(int": 1,
+        "double": 1,
+        "etc)And": 1,
+        "operations": 1,
+        "typesCLS": 1,
+        "set": 3,
+        "specifications": 1,
+        "designers": 1,
+        "need": 1,
+        "followThis": 1,
+        "will": 1,
+        "ensure": 1,
+        "interoperability": 1,
+        "languagesCompilation": 1,
+        "NETCode": 2,
+        "VB": 1,
+        "C#Code": 1,
+        "another": 1,
+        "LanguageVB": 1,
+        "compilerC#": 1,
+        "compilerAppropriateCompilerIL(IntermediateLanguage)": 1,
+        "codeCLR": 1,
+        "just-in-timeexecutionIntermediate": 1,
+        "(IL)": 2,
+        "compiled": 4,
+        "code": 8,
+        "They": 1,
+        "Intermediate": 1,
+        "accepts": 1,
+        "IL": 1,
+        "recompiles": 1,
+        "recompilation": 1,
+        "just-in-time": 1,
+        "(JIT)": 1,
+        "meaning": 1,
+        "done": 1,
+        "soon": 1,
+        "function": 1,
+        "subroutine": 1,
+        "called": 2,
+        "JIT": 3,
+        "stays": 1,
+        "subsequent": 2,
+        "calls": 2,
+        "In": 1,
+        "cases": 1,
+        "there": 1,
+        "enough": 1,
+        "discarded": 1,
+        "thus": 1,
+        "making": 1,
+        "process": 1,
+        "interpretive": 1,
+        "LanguagesLanguages": 1,
+        "provided": 2,
+        "MSVB": 1,
+        "C\u002B\u002B": 1,
+        "C#": 1,
+        "J#": 1,
+        "JScriptThird-parties": 1,
+        "buildingAPL": 1,
+        "COBOL": 1,
+        "Pascal": 1,
+        "Eiffel": 1,
+        "Haskell": 1,
+        "ML": 1,
+        "Oberon": 1,
+        "Perl": 1,
+        "Python": 1,
+        "Scheme": 1,
+        "Smalltalk\u2026Windows": 1,
+        "FormsFramework": 1,
+        "Building": 1,
+        "Rich": 1,
+        "ClientsRAD": 1,
+        "(Rapid": 1,
+        "Application": 1,
+        "Development)Rich": 1,
+        "controlsData": 2,
+        "awareActiveX\u00AE": 1,
+        "SupportLicensingAccessibilityPrinting": 1,
+        "supportUnicode": 1,
+        "supportUI": 1,
+        "inheritanceASP": 1,
+        "-": 1,
+        "platform": 2,
+        "services": 2,
+        "allow": 2,
+        "program": 1,
+        "Applications": 1,
+        "Services": 1,
+        "languageASP": 1,
+        "uses": 1,
+        "generate": 1,
+        "HTML": 2,
+        "pages": 1,
+        "page": 1,
+        "targeted": 1,
+        "capabilities": 2,
+        "requesting": 1,
+        "BrowserASP": 1,
+        "\u201CProgram\u201D": 1,
+        "cached": 2,
+        "first": 1,
+        "time": 1,
+        "use": 1,
+        "version": 1,
+        "ASP": 2,
+        "NETLogical": 1,
+        "Evolution": 1,
+        "ASPSupports": 1,
+        "multiple": 2,
+        "languagesImproved": 1,
+        "performanceControl-based": 1,
+        "event-driven": 1,
+        "execution": 2,
+        "modelMore": 1,
+        "productiveCleanly": 1,
+        "encapsulated": 1,
+        "functionalityASP": 1,
+        "FormsAllows": 1,
+        "clean": 1,
+        "cut": 1,
+        "codeCode-behind": 1,
+        "FormsEasier": 1,
+        "tools": 2,
+        "generateCode": 1,
+        "then": 1,
+        "executed": 1,
+        "Improved": 1,
+        "state": 1,
+        "informationSupport": 1,
+        "server": 1,
+        "validationData": 1,
+        "bound": 1,
+        "gridsASP": 1,
+        "ServicesA": 1,
+        "technical": 1,
+        "definition\u201CA": 1,
+        "programmable": 1,
+        "component": 1,
+        "accessible": 1,
+        "via": 3,
+        "standard": 1,
+        "protocols\u201DWeb": 1,
+        "ServicesIt": 1,
+        "just": 1,
+        "application\u2026\u2026that": 1,
+        "exposes": 1,
+        "its": 2,
+        "features": 2,
+        "network\u2026\u2026using": 1,
+        "XML\u2026\u2026to": 1,
+        "powerful": 1,
+        "more": 1,
+        "than": 1,
+        "sum": 1,
+        "their": 1,
+        "parts\u2026ADO": 1,
+        "NET(Data": 1,
+        "XML)New": 1,
+        "objects": 1,
+        "(e": 1,
+        "g": 1,
+        "DataSets)Separates": 1,
+        "connected": 1,
+        "/": 1,
+        "disconnected\u00A0issuesLanguage": 1,
+        "neutral": 1,
+        "data": 1,
+        "accessUses": 1,
+        "same": 1,
+        "CLRGreat": 1,
+        "support": 3,
+        "XMLVisual": 1,
+        "NETDevelopment": 1,
+        "tool": 2,
+        "contains": 1,
+        "productivity": 1,
+        "debugging": 1,
+        "Hierarchy": 1,
+        "Another": 1,
+        "ViewCLRCLRSummaryThe": 1,
+        "FrameworkDramatically": 1,
+        "simplifies": 1,
+        "deploymentProvides": 1,
+        "robust": 1,
+        "secure": 1,
+        "environmentSupports": 1,
+        "programming": 1,
+        "languagesComparison": 1,
+        "J2EE": 3,
+        "NETComparison": 1,
+        "ArchitecturesJ2EE": 1,
+        "NETExecution": 1,
+        "EngineJ2EE": 1,
+        "Java": 2,
+        "source": 1,
+        "compiles": 2,
+        "machine-independent": 1,
+        "byte": 1,
+        "JVM": 2,
+        "Any": 1,
+        "MSIL": 1,
+        "Both": 1,
+        "such": 1,
+        "verification": 1,
+        "management": 1,
+        "garbage": 1,
+        "collection": 1,
+        "securityJ2EE": 1,
+        "NETCross": 1,
+        "Platform": 2,
+        "PortabilityJ2EE": 1,
+        "Independent": 1,
+        "JDK": 1,
+        "should": 2,
+        "exist": 2,
+        "target": 2,
+        "Supports": 3,
+        "Windows": 1,
+        "Can": 2,
+        "platforms": 1,
+        "own": 1,
+        "complier": 1,
+        "NETLanguage": 1,
+        "SupportJ2EE": 2,
+        "Tied": 1,
+        "interface": 1,
+        "technology": 1,
+        "independent": 1,
+        "mapping": 1,
+        "exists": 1,
+        "ILJ2EE": 1,
+        "NETTools": 1,
+        "employ": 1,
+        "number": 1,
+        "Pro": 1,
+        "Developer": 1,
+        "great": 1,
+        "deal": 1,
+        "choice": 1,
+        "Con": 1,
+        "Difficulty": 1,
+        "choosing": 1,
+        "right": 1,
+        "given": 1,
+        "job": 1,
+        "Visual": 1,
+        "single": 1,
+        "IDE": 1,
+        "building": 1
+      }
+    },
+    "2": {
+      "id": 2,
+      "name": "C:\\Users\\HP\\Desktop\\search_engine_dotnet\\SearchEngine.API\\Database\\Files\\L2-C#-syntax.pptx",
+      "content": "CSC322Lecture 2 \u2013 Basic C# Syntax1Dr. Victor OdumuyiwaLearning outcomesAt the end of this lecture, you should be able to:Demonstrate a good understanding of C# syntaxWrite simple programs in C#2Main class (Program.cs)using System.Text;using System.Threading.Tasks;namespace Lesson1{    class Program    {        static void Main(string[] args)        {        }    }}3Statically vs. dynamically typed languagesC# is a statically typed language, which is to say that any element of code that represents or produces information, such as a variable or an expression, has its data type determined at compile time. Different from dynamically typed languages, such as JavaScript, in which types are determined at runtime.4Variable declaration (1/2)Each variable must be preceded by its typeString name = \u201Cvictor\u201D;int  age = 22;After declaration, no need to specify type while using the variablename = \u201CJules\u201D;age = 14;5Variable declaration (2/2)Multiple declarations in a lineint a=4, b=5, c=6;Keyword \u201Cvar\u201D could be used to automatically determine the typevar name = \u201Cvictor\u201D;var num = 5;name = 6;  num = \u201CMike\u201D;6Scope(1/4)A variable\u2019s scope is the range of code in which you can refer to that variable by its name.Local variables are not the only things with scope. Methods, properties, types, and, in fact, anything with a name all have scope. Scope is the region in which you can refer to the entity by its name7Scope(2/4)A local variable\u2019s scope starts at its declaration, and finishes at the end of its containing block. A block is a region of code delimited by a pair of braces { }. A method body is a block, so a variable defined in one method is not visible in another method, because it is out of scope.8Scope(3/4)public int setCount()        {            int count =5;            return count;        }9public int getCount()        {            count = count\u002B5;            return count;        }Scope(4/4)In a nested block, everything that is in scope in the outer block continues to be in scope inside that nested block. If you declare a variable in a nested block, its scope does not extend outside of that block.10Scope Exampleint n = 5;            if (n \u003E 3)            {                int ans = 3;                n--;                if (n \u003C= 2)                {                    ans = 2;                }                Console.WriteLine(ans);                Console.WriteLine(n);            }11Declaration SpaceA declaration space is a region of code in which a single name must not refer to two different entities. Each method defines a declaration space for variables. Nested blocks also introduce declaration spaces, and it is illegal for a nested declaration space to declare a variable with the same name as one in its parent\u2019s declaration space.Declaration space rules intent is that it shouldn\u2019t matter where you put the declaration. If you were to move all of the variable declarations in a block to the start, this shouldn\u2019t change what the code means.12Scope vs. Declaration Spaceint n = 5;            if (n \u003E 3)            {                int ans = 3;                n--;                if (n \u003C= 2)                {                    ans = 2;                }                Console.WriteLine(ans);                Console.WriteLine(n);            }int n = 5;            if (n \u003E 3)            {                int ans = 3;                n--;                if (n \u003C= 2)                {                    ans = 2;                }                int n = 7;                Console.WriteLine(ans);                Console.WriteLine(n);             }13Statement and ExpressionsC# specification distinguishes between 14 different categories of statementFocus here will be on:Declaration statementExpression statementIteration statementSelection statementWhat is the difference between expression and expression statement ?14Expression statementsAn expression is a sequence of operators and operands.You can use the following kind of expressions as statements:Method invocationAssignmentIncrementDecrement New object declaration2\u002B3 is a valid expression but not an expression statement so the compiler will complain when you write 2\u002B3; as a line of code.15Camel and Pascal NotationCamel notation Each word in the identifier is put together without spaces, but with the first letter of each word capitalized looking like the humps of a camelmyCamelNotationIdentifierPascal NotationPascal notation is like camel notation except that the initial letter is uppercaseMyPascalNotationIdentifierFor  variables and parameters/arguments we normally use \u201CCamel notation\u201D.For classes, methods and properties, we normally use \u201CPascal notation\u201D.16Preprocessing Directives (1/2)Before your code is compiled, another program called the preprocessor runs and prepares your program for the compiler.The preprocessor examines your code for special preprocessor directives, all of which begin with the pound sign (#).These directives allow you to define identifiers and then test for their existence.Examples#define,  #if , #endif, #error, #warning, #line, #pragma#region and #endregion17Preprocessing Directives (2/2)18ConstantsA constant is an object whose values can not be changed. Literals e.g. 10, 23, 45Symbolic Const type identifier = value;  //architecture(syntax)Const int BoilingPoint = 100;Enumerations\t[attributes] [modifiers] enum identifier\t[:base-type] {enumerator-list}19Intrinsic typesNumeric typesInteger typesFloating-point typesBooleanStrings and CharactersObject20Integer types21Floating-point type22C# also recognizes a third floating-point type called Decimal (System.Decimal in the CLR) which is 128 bit value.In-class activityNumeric conversionint i = 42;double di = i;Console.WriteLine(i / 5);Console.WriteLine(di / 5);Console.WriteLine(i / 5.0);23Checked context (1/2)CheckedC# defines the checked keyword which you can put in front of either a statement or an expression, making it a checked contest.This means that certain arithmetic operations, including casts, are checked for range overflow at runtime.If you cast a value to an integer type in a checked context, and the value is too high or low to fit, an error will occur\u2014the code will throw a System.OverflowException.Checked contexts will also detect range overflows in ordinary arithmetic24Checked context (2/2)UncheckedC# also defines the unchecked keyword which can be used inside a checked block to indicate that a particular expression or nested block should not be a checked contextYou can configure the C# compiler to put everything into a checked context by default, so that only explicitly unchecked expressions and statements will be able to overflow silently.25Checked context - exampleint result = checked( a \u002B b ) \u002B c;26Checked{  int r1 = a \u002B b;  int r2 = r1 \u2013 (int) c;}Arithmetic OperatorsOperatorDescriptionExample\u002BAdditioni\u002B5-SubtractionJ-10*Multiplicationi*8/Divisiona/3%Modulus (division remainder)i%6\u002B\u002Bincrement\u002B\u002Bi--Decrement--iAssignment OperatorsOperatorExampleEquivalent to=i=5i = 5\u002B=j\u002B=4j = j\u002B4\u002B=a \u002B= \u2018string\u2019a = a \u002B \u2018string\u2019-=j-=4j = j -4*=b*=2b = b*2/=c/=5c = c/5%=d%=6d = d % 6Comparison OperatorsOperatorDescriptionExample==Is equal toI == 5!=Is not equal to J !=10\u003EIs greater thani\u003E0\u003CIs less thani\u003C6\u003E=Is greater than or equal toJ\u003E=15\u003C=Is less than or equal toJ \u003C=20Logical OperatorsOperatorDescriptionExample\u0026\u0026Anda==4 \u0026\u0026 b==5||Ora\u003C5||a\u003E0!Not !(a==b)Binary integer operators31Ternary operator (Conditional operator)Conditional-expression ? expression1 :  expression2int value1 = 5;int value2 = 10;int maxValue = value2 \u003E value1 ? Value2 : value132Control structureSequentialFlows from beginning to the endSelectionSingle selectionDouble selectionMultiple selectionRepetitionFixed repetitionPretest repetitionPosttest repetition33In-class activities1. Implement factorial using iteration2. Implement factorial using recursion3.  Implement a score grader4. Implement a GPA calculator34",
+      "keywords": {
+        "CSC322Lecture": 1,
+        "2": 1,
+        "\u2013": 2,
+        "Basic": 1,
+        "C#": 3,
+        "Syntax1Dr": 1,
+        "Victor": 1,
+        "OdumuyiwaLearning": 1,
+        "outcomesAt": 1,
+        "end": 2,
+        "lecture": 1,
+        "you": 10,
+        "should": 2,
+        "able": 2,
+        "Demonstrate": 1,
+        "good": 1,
+        "understanding": 1,
+        "syntaxWrite": 1,
+        "simple": 1,
+        "programs": 1,
+        "C#2Main": 1,
+        "class": 2,
+        "(Program": 1,
+        "cs)using": 1,
+        "System": 3,
+        "Text;using": 1,
+        "Threading": 1,
+        "Tasks;namespace": 1,
+        "Lesson1{": 1,
+        "Program": 1,
+        "{": 11,
+        "static": 1,
+        "void": 1,
+        "Main(string[]": 1,
+        "args)": 1,
+        "}": 5,
+        "}}3Statically": 1,
+        "vs": 2,
+        "dynamically": 2,
+        "typed": 3,
+        "languagesC#": 1,
+        "statically": 1,
+        "language": 1,
+        "say": 1,
+        "any": 1,
+        "element": 1,
+        "code": 9,
+        "represents": 1,
+        "produces": 1,
+        "information": 1,
+        "such": 2,
+        "variable": 7,
+        "expression": 8,
+        "its": 8,
+        "data": 1,
+        "type": 5,
+        "determined": 2,
+        "compile": 1,
+        "time": 1,
+        "Different": 1,
+        "languages": 1,
+        "JavaScript": 1,
+        "types": 2,
+        "runtime": 2,
+        "4Variable": 1,
+        "declaration": 10,
+        "(1/2)Each": 1,
+        "must": 2,
+        "preceded": 1,
+        "typeString": 1,
+        "name": 6,
+        "=": 36,
+        "\u201Cvictor\u201D;int": 1,
+        "age": 1,
+        "22;After": 1,
+        "no": 1,
+        "need": 1,
+        "specify": 1,
+        "using": 3,
+        "variablename": 1,
+        "\u201CJules\u201D;age": 1,
+        "14;5Variable": 1,
+        "(2/2)Multiple": 1,
+        "declarations": 2,
+        "lineint": 1,
+        "a=4": 1,
+        "b=5": 1,
+        "c=6;Keyword": 1,
+        "\u201Cvar\u201D": 1,
+        "could": 1,
+        "used": 2,
+        "automatically": 1,
+        "determine": 1,
+        "typevar": 1,
+        "\u201Cvictor\u201D;var": 1,
+        "num": 2,
+        "5;name": 1,
+        "6;": 1,
+        "\u201CMike\u201D;6Scope(1/4)A": 1,
+        "variable\u2019s": 2,
+        "scope": 8,
+        "range": 3,
+        "can": 7,
+        "refer": 3,
+        "Local": 1,
+        "variables": 3,
+        "only": 2,
+        "things": 1,
+        "Methods": 1,
+        "properties": 2,
+        "fact": 1,
+        "anything": 1,
+        "all": 3,
+        "Scope": 1,
+        "region": 3,
+        "entity": 1,
+        "name7Scope(2/4)A": 1,
+        "local": 1,
+        "starts": 1,
+        "finishes": 1,
+        "containing": 1,
+        "block": 11,
+        "A": 2,
+        "delimited": 1,
+        "pair": 1,
+        "braces": 1,
+        "method": 4,
+        "body": 1,
+        "defined": 1,
+        "one": 2,
+        "visible": 1,
+        "another": 2,
+        "out": 1,
+        "8Scope(3/4)public": 1,
+        "int": 10,
+        "setCount()": 1,
+        "count": 2,
+        "=5;": 1,
+        "return": 2,
+        "count;": 2,
+        "}9public": 1,
+        "getCount()": 1,
+        "count\u002B5;": 1,
+        "}Scope(4/4)In": 1,
+        "nested": 5,
+        "everything": 2,
+        "outer": 1,
+        "continues": 1,
+        "inside": 2,
+        "If": 3,
+        "declare": 2,
+        "does": 1,
+        "extend": 1,
+        "outside": 1,
+        "10Scope": 1,
+        "Exampleint": 1,
+        "n": 4,
+        "5;": 3,
+        "(n": 6,
+        "\u003E": 4,
+        "3)": 3,
+        "ans": 6,
+        "3;": 3,
+        "n--;": 3,
+        "\u003C=": 3,
+        "2)": 3,
+        "2;": 3,
+        "Console": 6,
+        "WriteLine(ans);": 3,
+        "WriteLine(n);": 3,
+        "}11Declaration": 1,
+        "SpaceA": 1,
+        "space": 5,
+        "single": 1,
+        "two": 1,
+        "different": 2,
+        "entities": 1,
+        "Each": 2,
+        "defines": 3,
+        "Nested": 1,
+        "blocks": 1,
+        "also": 4,
+        "introduce": 1,
+        "spaces": 2,
+        "illegal": 1,
+        "same": 1,
+        "parent\u2019s": 1,
+        "Declaration": 3,
+        "rules": 1,
+        "intent": 1,
+        "shouldn\u2019t": 2,
+        "matter": 1,
+        "put": 4,
+        "move": 1,
+        "start": 1,
+        "change": 1,
+        "means": 2,
+        "12Scope": 1,
+        "Spaceint": 1,
+        "}int": 1,
+        "7;": 1,
+        "}13Statement": 1,
+        "ExpressionsC#": 1,
+        "specification": 1,
+        "distinguishes": 1,
+        "14": 1,
+        "categories": 1,
+        "statementFocus": 1,
+        "here": 1,
+        "will": 6,
+        "statementExpression": 1,
+        "statementIteration": 1,
+        "statementSelection": 1,
+        "statementWhat": 1,
+        "difference": 1,
+        "statement": 3,
+        "?14Expression": 1,
+        "statementsAn": 1,
+        "sequence": 1,
+        "operators": 1,
+        "operands": 1,
+        "You": 1,
+        "use": 3,
+        "following": 1,
+        "kind": 1,
+        "expressions": 2,
+        "statements": 2,
+        "Method": 1,
+        "invocationAssignmentIncrementDecrement": 1,
+        "New": 1,
+        "object": 2,
+        "declaration2\u002B3": 1,
+        "valid": 1,
+        "compiler": 3,
+        "complain": 1,
+        "write": 1,
+        "2\u002B3;": 1,
+        "line": 1,
+        "15Camel": 1,
+        "Pascal": 1,
+        "NotationCamel": 1,
+        "notation": 3,
+        "word": 2,
+        "identifier": 3,
+        "together": 1,
+        "without": 1,
+        "first": 1,
+        "letter": 2,
+        "each": 1,
+        "capitalized": 1,
+        "looking": 1,
+        "like": 2,
+        "humps": 1,
+        "camelmyCamelNotationIdentifierPascal": 1,
+        "NotationPascal": 1,
+        "camel": 1,
+        "except": 1,
+        "initial": 1,
+        "uppercaseMyPascalNotationIdentifierFor": 1,
+        "parameters/arguments": 1,
+        "we": 2,
+        "normally": 2,
+        "\u201CCamel": 1,
+        "notation\u201D": 2,
+        "For": 1,
+        "classes": 1,
+        "methods": 1,
+        "\u201CPascal": 1,
+        "16Preprocessing": 1,
+        "Directives": 2,
+        "(1/2)Before": 1,
+        "your": 3,
+        "compiled": 1,
+        "program": 2,
+        "called": 2,
+        "preprocessor": 3,
+        "runs": 1,
+        "prepares": 1,
+        "The": 1,
+        "examines": 1,
+        "special": 1,
+        "directives": 2,
+        "begin": 1,
+        "pound": 1,
+        "sign": 1,
+        "(#)": 1,
+        "These": 1,
+        "allow": 1,
+        "define": 1,
+        "identifiers": 1,
+        "then": 1,
+        "test": 1,
+        "their": 1,
+        "existence": 1,
+        "Examples#define": 1,
+        "#if": 1,
+        "#endif": 1,
+        "#error": 1,
+        "#warning": 1,
+        "#line": 1,
+        "#pragma#region": 1,
+        "#endregion17Preprocessing": 1,
+        "(2/2)18ConstantsA": 1,
+        "constant": 1,
+        "values": 1,
+        "changed": 1,
+        "Literals": 1,
+        "e": 1,
+        "g": 1,
+        "10": 1,
+        "23": 1,
+        "45Symbolic": 1,
+        "Const": 1,
+        "value;": 1,
+        "//architecture(syntax)Const": 1,
+        "BoilingPoint": 1,
+        "100;Enumerations": 1,
+        "[attributes]": 1,
+        "[modifiers]": 1,
+        "enum": 1,
+        "[": 1,
+        "base-type]": 1,
+        "{enumerator-list}19Intrinsic": 1,
+        "typesNumeric": 1,
+        "typesInteger": 1,
+        "typesFloating-point": 1,
+        "typesBooleanStrings": 1,
+        "CharactersObject20Integer": 1,
+        "types21Floating-point": 1,
+        "type22C#": 1,
+        "recognizes": 1,
+        "third": 1,
+        "floating-point": 1,
+        "Decimal": 2,
+        "(System": 1,
+        "CLR)": 1,
+        "128": 1,
+        "bit": 1,
+        "value": 3,
+        "In-class": 1,
+        "activityNumeric": 1,
+        "conversionint": 1,
+        "i": 1,
+        "42;double": 1,
+        "di": 1,
+        "i;Console": 1,
+        "WriteLine(i": 2,
+        "/": 3,
+        "5);Console": 2,
+        "WriteLine(di": 1,
+        "5": 1,
+        "0);23Checked": 1,
+        "context": 5,
+        "(1/2)CheckedC#": 1,
+        "checked": 7,
+        "keyword": 2,
+        "front": 1,
+        "making": 1,
+        "contest": 1,
+        "This": 1,
+        "certain": 1,
+        "arithmetic": 1,
+        "operations": 1,
+        "including": 1,
+        "casts": 1,
+        "overflow": 2,
+        "cast": 1,
+        "integer": 2,
+        "too": 1,
+        "high": 1,
+        "low": 1,
+        "fit": 1,
+        "error": 1,
+        "occur\u2014the": 1,
+        "throw": 1,
+        "OverflowException": 1,
+        "Checked": 1,
+        "contexts": 1,
+        "detect": 1,
+        "overflows": 1,
+        "ordinary": 1,
+        "arithmetic24Checked": 1,
+        "(2/2)UncheckedC#": 1,
+        "unchecked": 2,
+        "indicate": 1,
+        "particular": 1,
+        "contextYou": 1,
+        "configure": 1,
+        "default": 1,
+        "explicitly": 1,
+        "silently": 1,
+        "25Checked": 1,
+        "-": 1,
+        "exampleint": 1,
+        "result": 1,
+        "checked(": 1,
+        "\u002B": 4,
+        "b": 1,
+        ")": 1,
+        "c;26Checked{": 1,
+        "r1": 2,
+        "b;": 1,
+        "r2": 1,
+        "(int)": 1,
+        "c;}Arithmetic": 1,
+        "OperatorsOperatorDescriptionExample\u002BAdditioni\u002B5-SubtractionJ-10*Multiplicationi*8/Divisiona/3%Modulus": 1,
+        "(division": 1,
+        "remainder)i%6\u002B\u002Bincrement\u002B\u002Bi--Decrement--iAssignment": 1,
+        "OperatorsOperatorExampleEquivalent": 1,
+        "to=i=5i": 1,
+        "5\u002B=j\u002B=4j": 1,
+        "j\u002B4\u002B=a": 1,
+        "\u002B=": 1,
+        "\u2018string\u2019a": 1,
+        "\u2018string\u2019-=j-=4j": 1,
+        "j": 1,
+        "-4*=b*=2b": 1,
+        "b*2/=c/=5c": 1,
+        "c/5%=d%=6d": 1,
+        "d": 1,
+        "%": 1,
+        "6Comparison": 1,
+        "OperatorsOperatorDescriptionExample==Is": 1,
+        "equal": 4,
+        "toI": 1,
+        "==": 1,
+        "5!=Is": 1,
+        "J": 1,
+        "!=10\u003EIs": 1,
+        "greater": 2,
+        "thani\u003E0\u003CIs": 1,
+        "less": 2,
+        "thani\u003C6\u003E=Is": 1,
+        "than": 2,
+        "toJ\u003E=15\u003C=Is": 1,
+        "toJ": 1,
+        "\u003C=20Logical": 1,
+        "OperatorsOperatorDescriptionExample\u0026\u0026Anda==4": 1,
+        "\u0026\u0026": 1,
+        "b==5||Ora\u003C5||a\u003E0!Not": 1,
+        "!(a==b)Binary": 1,
+        "operators31Ternary": 1,
+        "operator": 1,
+        "(Conditional": 1,
+        "operator)Conditional-expression": 1,
+        "?": 2,
+        "expression1": 1,
+        "expression2int": 1,
+        "value1": 2,
+        "5;int": 1,
+        "value2": 2,
+        "10;int": 1,
+        "maxValue": 1,
+        "Value2": 1,
+        "value132Control": 1,
+        "structureSequentialFlows": 1,
+        "beginning": 1,
+        "endSelectionSingle": 1,
+        "selectionDouble": 1,
+        "selectionMultiple": 1,
+        "selectionRepetitionFixed": 1,
+        "repetitionPretest": 1,
+        "repetitionPosttest": 1,
+        "repetition33In-class": 1,
+        "activities1": 1,
+        "Implement": 4,
+        "factorial": 2,
+        "iteration2": 1,
+        "recursion3": 1,
+        "score": 1,
+        "grader4": 1,
+        "GPA": 1,
+        "calculator34": 1
+      }
+    },
+    "3": {
+      "id": 3,
+      "name": "C:\\Users\\HP\\Desktop\\search_engine_dotnet\\SearchEngine.API\\Database\\Files\\L4 CSC322 Lesson 4 - Specification.pdf",
+      "content": "CSC322\nLecture Note 4\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 4\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 4\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 4\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 4\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 4\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 4\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 4\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 4\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 4\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 4\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 4\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 4\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 4\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 4\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 4\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 4\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 4\nDr. Victor Odumuyiwa\n1",
+      "keywords": {
+        "CSC322\nLecture": 1,
+        "Note": 18,
+        "4\nDr": 18,
+        "Victor": 18,
+        "Odumuyiwa\n1CSC322\nLecture": 17,
+        "Odumuyiwa\n1": 1
+      }
+    },
+    "4": {
+      "id": 4,
+      "name": "C:\\Users\\HP\\Desktop\\search_engine_dotnet\\SearchEngine.API\\Database\\Files\\L5 CSC322 Lesson 5 - Defensive Programming and Exceptions.pdf",
+      "content": "CSC322\nLecture Note 5\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 5\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 5\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 5\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 5\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 5\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 5\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 5\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 5\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 5\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 5\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 5\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 5\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 5\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 5\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 5\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 5\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 5\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 5\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 5\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 5\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 5\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 5\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 5\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 5\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 5\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 5\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 5\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 5\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 5\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 5\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 5\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 5\nDr. Victor Odumuyiwa\n1",
+      "keywords": {
+        "CSC322\nLecture": 1,
+        "Note": 33,
+        "5\nDr": 33,
+        "Victor": 33,
+        "Odumuyiwa\n1CSC322\nLecture": 32,
+        "Odumuyiwa\n1": 1
+      }
+    },
+    "5": {
+      "id": 5,
+      "name": "C:\\Users\\HP\\Desktop\\search_engine_dotnet\\SearchEngine.API\\Database\\Files\\L6-Test-first programming.pdf",
+      "content": "CSC322\nLecture Note 6: Test First \nProgramming\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 6: Test First \nProgramming\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 6: Test First \nProgramming\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 6: Test First \nProgramming\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 6: Test First \nProgramming\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 6: Test First \nProgramming\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 6: Test First \nProgramming\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 6: Test First \nProgramming\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 6: Test First \nProgramming\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 6: Test First \nProgramming\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 6: Test First \nProgramming\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 6: Test First \nProgramming\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 6: Test First \nProgramming\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 6: Test First \nProgramming\nDr. Victor Odumuyiwa\n1CSC322\nLecture Note 6: Test First \nProgramming\nDr. Victor Odumuyiwa\n1",
+      "keywords": {
+        "CSC322\nLecture": 1,
+        "Note": 15,
+        "6": 15,
+        "Test": 15,
+        "First": 15,
+        "\nProgramming\nDr": 15,
+        "Victor": 15,
+        "Odumuyiwa\n1CSC322\nLecture": 14,
+        "Odumuyiwa\n1": 1
+      }
+    }
+  },
+  "keywords": {
+    "CSC322": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "A": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      },
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "MODERN": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "PROGRAMMING": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "LANGUAGEDr": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Victor": [
+      {
+        "docId": 4,
+        "occurrence": 33
+      },
+      {
+        "docId": 3,
+        "occurrence": 18
+      },
+      {
+        "docId": 2,
+        "occurrence": 1
+      },
+      {
+        "docId": 0,
+        "occurrence": 2
+      }
+    ],
+    "T": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "OdumuyiwaMr": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Sola": [
+      {
+        "docId": 0,
+        "occurrence": 2
+      }
+    ],
+    "EdagbamiGeneral": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "INFORMATIONInstructorDr": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Odumuyiwa": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Room": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "112": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "(Computer": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Science": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "building)": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "vodumuyiwa@unilag": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "edu": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "ng": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Office": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "hours": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Tuesday": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "2-3pmMr": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "EdagbamiTAs": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "\u00A0Lecture": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Monday": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "9": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "00": [
+      {
+        "docId": 0,
+        "occurrence": 3
+      }
+    ],
+    "-11": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "(NITDA": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "IT": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Hub)Recitation/Lab": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Wednesday": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "14": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      },
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "00-16": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "(E303/Lab203)ExpectationsYour": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "attendance": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "lectures": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "recitations": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "very": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "important": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "I": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "expect": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "every": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "student": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "should": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      },
+      {
+        "docId": 1,
+        "occurrence": 2
+      },
+      {
+        "docId": 0,
+        "occurrence": 6
+      }
+    ],
+    "class": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      },
+      {
+        "docId": 1,
+        "occurrence": 2
+      },
+      {
+        "docId": 0,
+        "occurrence": 2
+      }
+    ],
+    "most": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "5": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      },
+      {
+        "docId": 0,
+        "occurrence": 2
+      }
+    ],
+    "minutes": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "start": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      },
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "time": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      },
+      {
+        "docId": 1,
+        "occurrence": 1
+      },
+      {
+        "docId": 0,
+        "occurrence": 2
+      }
+    ],
+    "Late": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "coming": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "causes": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "distractions": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "your": [
+      {
+        "docId": 2,
+        "occurrence": 3
+      },
+      {
+        "docId": 0,
+        "occurrence": 9
+      }
+    ],
+    "punctuality": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "will": [
+      {
+        "docId": 2,
+        "occurrence": 6
+      },
+      {
+        "docId": 1,
+        "occurrence": 1
+      },
+      {
+        "docId": 0,
+        "occurrence": 17
+      }
+    ],
+    "highly": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "appreciated": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "You": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      },
+      {
+        "docId": 0,
+        "occurrence": 5
+      }
+    ],
+    "expected": [
+      {
+        "docId": 0,
+        "occurrence": 3
+      }
+    ],
+    "attend": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "classes": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      },
+      {
+        "docId": 0,
+        "occurrence": 2
+      }
+    ],
+    "laptops": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "they": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "remain": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "closed": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "activity": [
+      {
+        "docId": 0,
+        "occurrence": 2
+      }
+    ],
+    "In": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      },
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "prospective\u201CA": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "contemporary": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "programming": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      },
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "language": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      },
+      {
+        "docId": 1,
+        "occurrence": 7
+      },
+      {
+        "docId": 0,
+        "occurrence": 2
+      }
+    ],
+    "taught": [
+      {
+        "docId": 0,
+        "occurrence": 2
+      }
+    ],
+    "much": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "detail": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "available\u201DCourse": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "descriptionToday\u2019s": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "world": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "driven": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "software": [
+      {
+        "docId": 0,
+        "occurrence": 9
+      }
+    ],
+    "definitely": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "future": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "well": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Designing": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "developing": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      },
+      {
+        "docId": 0,
+        "occurrence": 2
+      }
+    ],
+    "good": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      },
+      {
+        "docId": 0,
+        "occurrence": 2
+      }
+    ],
+    "efficient": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "solve": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "problems": [
+      {
+        "docId": 0,
+        "occurrence": 2
+      }
+    ],
+    "enhance": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "productivity": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      },
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "cannot": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "overemphasized": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "This": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      },
+      {
+        "docId": 0,
+        "occurrence": 2
+      }
+    ],
+    "course": [
+      {
+        "docId": 0,
+        "occurrence": 5
+      }
+    ],
+    "designed": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "expose": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "you": [
+      {
+        "docId": 2,
+        "occurrence": 10
+      },
+      {
+        "docId": 0,
+        "occurrence": 7
+      }
+    ],
+    "construction": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "some": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "best": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "practices": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "turn": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "developers": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "The": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      },
+      {
+        "docId": 1,
+        "occurrence": 3
+      },
+      {
+        "docId": 0,
+        "occurrence": 3
+      }
+    ],
+    "main": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "focus": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Object": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      },
+      {
+        "docId": 0,
+        "occurrence": 3
+      }
+    ],
+    "Oriented": [
+      {
+        "docId": 0,
+        "occurrence": 3
+      }
+    ],
+    "Design": [
+      {
+        "docId": 0,
+        "occurrence": 2
+      }
+    ],
+    "(OOD)": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "its": [
+      {
+        "docId": 2,
+        "occurrence": 8
+      },
+      {
+        "docId": 1,
+        "occurrence": 2
+      },
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "implementation": [
+      {
+        "docId": 0,
+        "occurrence": 2
+      }
+    ],
+    "using": [
+      {
+        "docId": 2,
+        "occurrence": 3
+      },
+      {
+        "docId": 0,
+        "occurrence": 4
+      }
+    ],
+    "Programming": [
+      {
+        "docId": 0,
+        "occurrence": 3
+      }
+    ],
+    "(OOP)": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "like": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      },
+      {
+        "docId": 1,
+        "occurrence": 1
+      },
+      {
+        "docId": 0,
+        "occurrence": 2
+      }
+    ],
+    "C#": [
+      {
+        "docId": 2,
+        "occurrence": 3
+      },
+      {
+        "docId": 1,
+        "occurrence": 1
+      },
+      {
+        "docId": 0,
+        "occurrence": 3
+      }
+    ],
+    "Students": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "introduced": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "NET": [
+      {
+        "docId": 1,
+        "occurrence": 33
+      },
+      {
+        "docId": 0,
+        "occurrence": 4
+      }
+    ],
+    "framework": [
+      {
+        "docId": 1,
+        "occurrence": 2
+      },
+      {
+        "docId": 0,
+        "occurrence": 2
+      }
+    ],
+    "modern": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "development": [
+      {
+        "docId": 1,
+        "occurrence": 2
+      },
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "environment": [
+      {
+        "docId": 1,
+        "occurrence": 2
+      },
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "specifically": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Visual": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      },
+      {
+        "docId": 0,
+        "occurrence": 2
+      }
+    ],
+    "Studio": [
+      {
+        "docId": 1,
+        "occurrence": 4
+      },
+      {
+        "docId": 0,
+        "occurrence": 2
+      }
+    ],
+    "Concepts": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "abstraction": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "inheritance": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "polymorphism": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "objects": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      },
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "mutability": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "exceptions": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Ability": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "memorize": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "definitions": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "facts": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "no": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      },
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "help": [
+      {
+        "docId": 0,
+        "occurrence": 2
+      }
+    ],
+    "ability": [
+      {
+        "docId": 0,
+        "occurrence": 2
+      }
+    ],
+    "conceptualize": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "solutions": [
+      {
+        "docId": 0,
+        "occurrence": 3
+      }
+    ],
+    "problem": [
+      {
+        "docId": 0,
+        "occurrence": 4
+      }
+    ],
+    "great": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      },
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Learning": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "outcomesAt": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      },
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "end": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      },
+      {
+        "docId": 0,
+        "occurrence": 2
+      }
+    ],
+    "students": [
+      {
+        "docId": 0,
+        "occurrence": 3
+      }
+    ],
+    "able": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      },
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Write": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "applications": [
+      {
+        "docId": 1,
+        "occurrence": 2
+      },
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "safe": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "bugs": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "easy": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "understand": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "ready": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "changeDesign": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "systems": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "OODDevelop": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "C#Evaluate": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "program": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      },
+      {
+        "docId": 1,
+        "occurrence": 1
+      },
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "according": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "OO": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "principlesCreate": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Abstract": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Data": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      },
+      {
+        "docId": 0,
+        "occurrence": 2
+      }
+    ],
+    "Types": [
+      {
+        "docId": 0,
+        "occurrence": 2
+      }
+    ],
+    "extensible": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "developmentCOURSE": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "CONTENTIntroduction": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Framework": [
+      {
+        "docId": 1,
+        "occurrence": 4
+      },
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "EnvironmentC#": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Syntax": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "SpecificationsDefensive": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "programmingTest-first": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "programmingGenericsCollectionsAbstract": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "typeInheritanceDelegates": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "\u2013": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      },
+      {
+        "docId": 1,
+        "occurrence": 4
+      },
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Lambda": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "LINQGraphical": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "User": [
+      {
+        "docId": 0,
+        "occurrence": 2
+      }
+    ],
+    "InterfaceSchedule\u00A0Week/Date\u00A0Lecture\u00A0Readings\u00A0PSets\u00A0Lecturer1Introduction": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Net": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      },
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "FrameworkChapt": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "1Dr": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Odumuyiwa2Basic": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Coding/C#": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "SyntaxChapt": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "2Mr": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Edagbami3TypesChapt": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "3Mr": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Edagbami4Specification\u00A0Dr": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Odumuyiwa5Defensive": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Exceptions\u00A0Dr": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Odumuyiwa6Test": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "First": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Programming\u00A0Dr": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Odumuyiwa7GenericChapt": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "4Bank": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "App": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "project": [
+      {
+        "docId": 0,
+        "occurrence": 7
+      }
+    ],
+    "(Individual)Mr": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "EdagbamiSchedule\u00A0Week/Date\u00A0Lecture\u00A0Readings\u00A0PSets\u00A0Lecturer8CollectionsChapt": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "5Project(Group": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "3": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "group)Dr": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Odumuyiwa9ADT\u00A0Dr": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Odumuyiwa10InheritanceChapt": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "6Mr": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Edagbami11Delegate-LambdaChapt": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "9Dr": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Odumuyiwa12LINQChapt": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "10Dr": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Odumuyiwa13Graphical": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "InterfaceMr": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "EdagbamiRECOMMENDED": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "TEXTSlan": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Griffiths": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Program": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      },
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "0Kurt": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Normark": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Object-oriented": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "C": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Java": [
+      {
+        "docId": 1,
+        "occurrence": 2
+      },
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "programmersErich": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Gamma": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Richard": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Helm": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Ralph": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "E": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Johnson": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "John": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Vlissides": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "-": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      },
+      {
+        "docId": 1,
+        "occurrence": 1
+      },
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Patterns": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Elements": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Reusable": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Object-Oriented": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "SoftwarePeter": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Coad": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Edward": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Yourdon": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "DesignMcConnell": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Steve": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "\u00A0Code": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "complete": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Pearson": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Education": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "2004": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Grading": [
+      {
+        "docId": 0,
+        "occurrence": 3
+      }
+    ],
+    "POLICY": [
+      {
+        "docId": 0,
+        "occurrence": 2
+      }
+    ],
+    "(1/2)Your": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "grade": [
+      {
+        "docId": 0,
+        "occurrence": 3
+      }
+    ],
+    "based": [
+      {
+        "docId": 0,
+        "occurrence": 2
+      }
+    ],
+    "performance": [
+      {
+        "docId": 0,
+        "occurrence": 3
+      }
+    ],
+    "sets": [
+      {
+        "docId": 0,
+        "occurrence": 4
+      }
+    ],
+    "(assignments)": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "individual": [
+      {
+        "docId": 0,
+        "occurrence": 3
+      }
+    ],
+    "group": [
+      {
+        "docId": 0,
+        "occurrence": 6
+      }
+    ],
+    "final": [
+      {
+        "docId": 0,
+        "occurrence": 2
+      }
+    ],
+    "examination": [
+      {
+        "docId": 0,
+        "occurrence": 2
+      }
+    ],
+    "overall": [
+      {
+        "docId": 0,
+        "occurrence": 2
+      }
+    ],
+    "determined": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      },
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "follows": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "10%": [
+      {
+        "docId": 0,
+        "occurrence": 2
+      }
+    ],
+    "Problem": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "setsProblem": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "released": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "progressively": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "semester": [
+      {
+        "docId": 0,
+        "occurrence": 3
+      }
+    ],
+    "Any": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      },
+      {
+        "docId": 0,
+        "occurrence": 2
+      }
+    ],
+    "act": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "copying": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "plagiarism": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "penalized": [
+      {
+        "docId": 0,
+        "occurrence": 2
+      }
+    ],
+    "(zero": [
+      {
+        "docId": 0,
+        "occurrence": 2
+      }
+    ],
+    "mark)": [
+      {
+        "docId": 0,
+        "occurrence": 2
+      }
+    ],
+    "solved": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "independently": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "may": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "collaborate": [
+      {
+        "docId": 0,
+        "occurrence": 2
+      }
+    ],
+    "other": [
+      {
+        "docId": 1,
+        "occurrence": 3
+      },
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "come": [
+      {
+        "docId": 0,
+        "occurrence": 2
+      }
+    ],
+    "up": [
+      {
+        "docId": 0,
+        "occurrence": 2
+      }
+    ],
+    "ideas": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "codes": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "submitting": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "must": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      },
+      {
+        "docId": 1,
+        "occurrence": 1
+      },
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "written": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      },
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "unique": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Individual": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "projectTowards": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "middle": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "given": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      },
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "topics": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "spend": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "two": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      },
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "weeks": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "working": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Copying": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "code": [
+      {
+        "docId": 2,
+        "occurrence": 9
+      },
+      {
+        "docId": 1,
+        "occurrence": 8
+      },
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Internet": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "any": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      },
+      {
+        "docId": 1,
+        "occurrence": 4
+      },
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "source": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      },
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "whatsoever": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "allowed": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "violation": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "(2/2)20%": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Group": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "projectGroup": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "afford": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "opportunity": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "designing": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Every": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "member": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "participate": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "extensively": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "present": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "whole": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "respond": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "questions": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "instructor": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "TAs": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "fellow": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "means": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      },
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "mandatory": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "everybody": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "get": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "same": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      },
+      {
+        "docId": 1,
+        "occurrence": 1
+      },
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "60%": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "ExaminationThe": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "It": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "meant": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "evaluate": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "knowledge": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "tested": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "design": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "OOD": [
+      {
+        "docId": 0,
+        "occurrence": 1
+      }
+    ],
+    "Rajeswari": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "IndupuriIntroduction": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "What": [
+      {
+        "docId": 1,
+        "occurrence": 2
+      }
+    ],
+    "Is": [
+      {
+        "docId": 1,
+        "occurrence": 3
+      }
+    ],
+    "It?Software": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "platformLanguage": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "neutralIn": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "words": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "(Runtime": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "library": [
+      {
+        "docId": 1,
+        "occurrence": 2
+      }
+    ],
+    "writing": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "executing": [
+      {
+        "docId": 1,
+        "occurrence": 2
+      }
+    ],
+    "programs": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      },
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "compliant": [
+      {
+        "docId": 1,
+        "occurrence": 2
+      }
+    ],
+    "language)What": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "new": [
+      {
+        "docId": 1,
+        "occurrence": 2
+      }
+    ],
+    "web-based": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "windows-based": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "within": [
+      {
+        "docId": 1,
+        "occurrence": 2
+      }
+    ],
+    "Microsoft": [
+      {
+        "docId": 1,
+        "occurrence": 2
+      }
+    ],
+    "offers": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "fundamental": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "shift": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "strategy": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "moves": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "application": [
+      {
+        "docId": 1,
+        "occurrence": 3
+      }
+    ],
+    "client-centric": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "server-centric": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "It?Operating": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "System": [
+      {
+        "docId": 2,
+        "occurrence": 3
+      },
+      {
+        "docId": 1,
+        "occurrence": 2
+      }
+    ],
+    "\u002B": [
+      {
+        "docId": 2,
+        "occurrence": 4
+      },
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "Hardware": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "ApplicationBase": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "Class": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "LibraryCommon": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "Language": [
+      {
+        "docId": 1,
+        "occurrence": 11
+      }
+    ],
+    "SpecificationCommon": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "RuntimeADO": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "XMLVBVC\u002B\u002BVC#Visual": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "NETASP": [
+      {
+        "docId": 1,
+        "occurrence": 2
+      }
+    ],
+    "Web": [
+      {
+        "docId": 1,
+        "occurrence": 8
+      }
+    ],
+    "Servicesand": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "FormsJScript\u2026WindowsFormsFramework": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "Languages": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "And": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "ToolsThe": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "ServicesCommon": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "RuntimeWindows\u00AE": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "FormsASP": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "NETWeb": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "FormsWeb": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "ServicesADO": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "evolution": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "ADOVisual": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "NETCommon": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "Runtime": [
+      {
+        "docId": 1,
+        "occurrence": 3
+      }
+    ],
+    "(CLR)CLR": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "works": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "virtual": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "machine": [
+      {
+        "docId": 1,
+        "occurrence": 5
+      }
+    ],
+    "all": [
+      {
+        "docId": 2,
+        "occurrence": 3
+      },
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "languages": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      },
+      {
+        "docId": 1,
+        "occurrence": 5
+      }
+    ],
+    "All": [
+      {
+        "docId": 1,
+        "occurrence": 2
+      }
+    ],
+    "obey": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "rules": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      },
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "standards": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "imposed": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "CLR": [
+      {
+        "docId": 1,
+        "occurrence": 5
+      }
+    ],
+    "Examples": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "declaration": [
+      {
+        "docId": 2,
+        "occurrence": 10
+      },
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "creation": [
+      {
+        "docId": 1,
+        "occurrence": 2
+      }
+    ],
+    "useData": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "types": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      },
+      {
+        "docId": 1,
+        "occurrence": 3
+      }
+    ],
+    "librariesError": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "exception": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "handlingInteractive": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "Development": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "Environment": [
+      {
+        "docId": 1,
+        "occurrence": 2
+      }
+    ],
+    "(IDE)Common": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "RuntimeDevelopmentMixed": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "applicationsCommon": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "Specification": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "(CLS)Common": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "Type": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "(CTS)Standard": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "frameworkAutomatic": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "memory": [
+      {
+        "docId": 1,
+        "occurrence": 4
+      }
+    ],
+    "managementConsistent": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "error": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      },
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "handling": [
+      {
+        "docId": 1,
+        "occurrence": 2
+      }
+    ],
+    "safer": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "executionPotentially": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "multi-platformDeployment": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "Removal": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "registration": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "dependencySafety": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "fewer": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "versioning": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "problemsCommon": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "RuntimeMultiple": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "SupportCTS": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "rich": [
+      {
+        "docId": 1,
+        "occurrence": 2
+      }
+    ],
+    "type": [
+      {
+        "docId": 2,
+        "occurrence": 5
+      },
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "system": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "built": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "CLRImplements": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "various": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "(int": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "double": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "etc)And": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "operations": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      },
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "typesCLS": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "set": [
+      {
+        "docId": 1,
+        "occurrence": 3
+      }
+    ],
+    "specifications": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "designers": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "need": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      },
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "followThis": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "ensure": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "interoperability": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "languagesCompilation": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "NETCode": [
+      {
+        "docId": 1,
+        "occurrence": 2
+      }
+    ],
+    "VB": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "C#Code": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "another": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      },
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "LanguageVB": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "compilerC#": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "compilerAppropriateCompilerIL(IntermediateLanguage)": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "codeCLR": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "just-in-timeexecutionIntermediate": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "(IL)": [
+      {
+        "docId": 1,
+        "occurrence": 2
+      }
+    ],
+    "compiled": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      },
+      {
+        "docId": 1,
+        "occurrence": 4
+      }
+    ],
+    "They": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "Intermediate": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "accepts": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "IL": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "recompiles": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "recompilation": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "just-in-time": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "(JIT)": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "meaning": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "done": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "soon": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "function": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "subroutine": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "called": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      },
+      {
+        "docId": 1,
+        "occurrence": 2
+      }
+    ],
+    "JIT": [
+      {
+        "docId": 1,
+        "occurrence": 3
+      }
+    ],
+    "stays": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "subsequent": [
+      {
+        "docId": 1,
+        "occurrence": 2
+      }
+    ],
+    "calls": [
+      {
+        "docId": 1,
+        "occurrence": 2
+      }
+    ],
+    "cases": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "there": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "enough": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "discarded": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "thus": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "making": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      },
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "process": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "interpretive": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "LanguagesLanguages": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "provided": [
+      {
+        "docId": 1,
+        "occurrence": 2
+      }
+    ],
+    "MSVB": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "C\u002B\u002B": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "J#": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "JScriptThird-parties": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "buildingAPL": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "COBOL": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "Pascal": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      },
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "Eiffel": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "Haskell": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "ML": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "Oberon": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "Perl": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "Python": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "Scheme": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "Smalltalk\u2026Windows": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "FormsFramework": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "Building": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "Rich": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "ClientsRAD": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "(Rapid": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "Application": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "Development)Rich": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "controlsData": [
+      {
+        "docId": 1,
+        "occurrence": 2
+      }
+    ],
+    "awareActiveX\u00AE": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "SupportLicensingAccessibilityPrinting": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "supportUnicode": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "supportUI": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "inheritanceASP": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "platform": [
+      {
+        "docId": 1,
+        "occurrence": 2
+      }
+    ],
+    "services": [
+      {
+        "docId": 1,
+        "occurrence": 2
+      }
+    ],
+    "allow": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      },
+      {
+        "docId": 1,
+        "occurrence": 2
+      }
+    ],
+    "Applications": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "Services": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "languageASP": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "uses": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "generate": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "HTML": [
+      {
+        "docId": 1,
+        "occurrence": 2
+      }
+    ],
+    "pages": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "page": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "targeted": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "capabilities": [
+      {
+        "docId": 1,
+        "occurrence": 2
+      }
+    ],
+    "requesting": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "BrowserASP": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "\u201CProgram\u201D": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "cached": [
+      {
+        "docId": 1,
+        "occurrence": 2
+      }
+    ],
+    "first": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      },
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "use": [
+      {
+        "docId": 2,
+        "occurrence": 3
+      },
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "version": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "ASP": [
+      {
+        "docId": 1,
+        "occurrence": 2
+      }
+    ],
+    "NETLogical": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "Evolution": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "ASPSupports": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "multiple": [
+      {
+        "docId": 1,
+        "occurrence": 2
+      }
+    ],
+    "languagesImproved": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "performanceControl-based": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "event-driven": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "execution": [
+      {
+        "docId": 1,
+        "occurrence": 2
+      }
+    ],
+    "modelMore": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "productiveCleanly": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "encapsulated": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "functionalityASP": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "FormsAllows": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "clean": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "cut": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "codeCode-behind": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "FormsEasier": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "tools": [
+      {
+        "docId": 1,
+        "occurrence": 2
+      }
+    ],
+    "generateCode": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "then": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      },
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "executed": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "Improved": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "state": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "informationSupport": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "server": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "validationData": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "bound": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "gridsASP": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "ServicesA": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "technical": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "definition\u201CA": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "programmable": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "component": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "accessible": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "via": [
+      {
+        "docId": 1,
+        "occurrence": 3
+      }
+    ],
+    "standard": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "protocols\u201DWeb": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "ServicesIt": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "just": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "application\u2026\u2026that": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "exposes": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "features": [
+      {
+        "docId": 1,
+        "occurrence": 2
+      }
+    ],
+    "network\u2026\u2026using": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "XML\u2026\u2026to": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "powerful": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "more": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "than": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      },
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "sum": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "their": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      },
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "parts\u2026ADO": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "NET(Data": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "XML)New": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "(e": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "g": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      },
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "DataSets)Separates": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "connected": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "/": [
+      {
+        "docId": 2,
+        "occurrence": 3
+      },
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "disconnected\u00A0issuesLanguage": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "neutral": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "data": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      },
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "accessUses": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "CLRGreat": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "support": [
+      {
+        "docId": 1,
+        "occurrence": 3
+      }
+    ],
+    "XMLVisual": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "NETDevelopment": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "tool": [
+      {
+        "docId": 1,
+        "occurrence": 2
+      }
+    ],
+    "contains": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "debugging": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "Hierarchy": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "Another": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "ViewCLRCLRSummaryThe": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "FrameworkDramatically": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "simplifies": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "deploymentProvides": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "robust": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "secure": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "environmentSupports": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "languagesComparison": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "J2EE": [
+      {
+        "docId": 1,
+        "occurrence": 3
+      }
+    ],
+    "NETComparison": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "ArchitecturesJ2EE": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "NETExecution": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "EngineJ2EE": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "compiles": [
+      {
+        "docId": 1,
+        "occurrence": 2
+      }
+    ],
+    "machine-independent": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "byte": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "JVM": [
+      {
+        "docId": 1,
+        "occurrence": 2
+      }
+    ],
+    "MSIL": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "Both": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "such": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      },
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "verification": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "management": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "garbage": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "collection": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "securityJ2EE": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "NETCross": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "Platform": [
+      {
+        "docId": 1,
+        "occurrence": 2
+      }
+    ],
+    "PortabilityJ2EE": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "Independent": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "JDK": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "exist": [
+      {
+        "docId": 1,
+        "occurrence": 2
+      }
+    ],
+    "target": [
+      {
+        "docId": 1,
+        "occurrence": 2
+      }
+    ],
+    "Supports": [
+      {
+        "docId": 1,
+        "occurrence": 3
+      }
+    ],
+    "Windows": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "Can": [
+      {
+        "docId": 1,
+        "occurrence": 2
+      }
+    ],
+    "platforms": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "own": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "complier": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "NETLanguage": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "SupportJ2EE": [
+      {
+        "docId": 1,
+        "occurrence": 2
+      }
+    ],
+    "Tied": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "interface": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "technology": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "independent": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "mapping": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "exists": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "ILJ2EE": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "NETTools": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "employ": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "number": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "Pro": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "Developer": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "deal": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "choice": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "Con": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "Difficulty": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "choosing": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "right": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "job": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "single": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      },
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "IDE": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "building": [
+      {
+        "docId": 1,
+        "occurrence": 1
+      }
+    ],
+    "CSC322Lecture": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "2": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "Basic": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "Syntax1Dr": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "OdumuyiwaLearning": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "lecture": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "Demonstrate": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "understanding": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "syntaxWrite": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "simple": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "C#2Main": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "(Program": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "cs)using": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "Text;using": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "Threading": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "Tasks;namespace": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "Lesson1{": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "{": [
+      {
+        "docId": 2,
+        "occurrence": 11
+      }
+    ],
+    "static": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "void": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "Main(string[]": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "args)": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "}": [
+      {
+        "docId": 2,
+        "occurrence": 5
+      }
+    ],
+    "}}3Statically": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "vs": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      }
+    ],
+    "dynamically": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      }
+    ],
+    "typed": [
+      {
+        "docId": 2,
+        "occurrence": 3
+      }
+    ],
+    "languagesC#": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "statically": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "say": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "element": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "represents": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "produces": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "information": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "variable": [
+      {
+        "docId": 2,
+        "occurrence": 7
+      }
+    ],
+    "expression": [
+      {
+        "docId": 2,
+        "occurrence": 8
+      }
+    ],
+    "compile": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "Different": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "JavaScript": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "runtime": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      }
+    ],
+    "4Variable": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "(1/2)Each": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "preceded": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "typeString": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "name": [
+      {
+        "docId": 2,
+        "occurrence": 6
+      }
+    ],
+    "=": [
+      {
+        "docId": 2,
+        "occurrence": 36
+      }
+    ],
+    "\u201Cvictor\u201D;int": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "age": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "22;After": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "specify": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "variablename": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "\u201CJules\u201D;age": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "14;5Variable": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "(2/2)Multiple": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "declarations": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      }
+    ],
+    "lineint": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "a=4": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "b=5": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "c=6;Keyword": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "\u201Cvar\u201D": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "could": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "used": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      }
+    ],
+    "automatically": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "determine": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "typevar": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "\u201Cvictor\u201D;var": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "num": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      }
+    ],
+    "5;name": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "6;": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "\u201CMike\u201D;6Scope(1/4)A": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "variable\u2019s": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      }
+    ],
+    "scope": [
+      {
+        "docId": 2,
+        "occurrence": 8
+      }
+    ],
+    "range": [
+      {
+        "docId": 2,
+        "occurrence": 3
+      }
+    ],
+    "can": [
+      {
+        "docId": 2,
+        "occurrence": 7
+      }
+    ],
+    "refer": [
+      {
+        "docId": 2,
+        "occurrence": 3
+      }
+    ],
+    "Local": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "variables": [
+      {
+        "docId": 2,
+        "occurrence": 3
+      }
+    ],
+    "only": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      }
+    ],
+    "things": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "Methods": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "properties": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      }
+    ],
+    "fact": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "anything": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "Scope": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "region": [
+      {
+        "docId": 2,
+        "occurrence": 3
+      }
+    ],
+    "entity": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "name7Scope(2/4)A": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "local": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "starts": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "finishes": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "containing": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "block": [
+      {
+        "docId": 2,
+        "occurrence": 11
+      }
+    ],
+    "delimited": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "pair": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "braces": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "method": [
+      {
+        "docId": 2,
+        "occurrence": 4
+      }
+    ],
+    "body": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "defined": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "one": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      }
+    ],
+    "visible": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "out": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "8Scope(3/4)public": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "int": [
+      {
+        "docId": 2,
+        "occurrence": 10
+      }
+    ],
+    "setCount()": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "count": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      }
+    ],
+    "=5;": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "return": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      }
+    ],
+    "count;": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      }
+    ],
+    "}9public": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "getCount()": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "count\u002B5;": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "}Scope(4/4)In": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "nested": [
+      {
+        "docId": 2,
+        "occurrence": 5
+      }
+    ],
+    "everything": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      }
+    ],
+    "outer": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "continues": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "inside": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      }
+    ],
+    "If": [
+      {
+        "docId": 2,
+        "occurrence": 3
+      }
+    ],
+    "declare": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      }
+    ],
+    "does": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "extend": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "outside": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "10Scope": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "Exampleint": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "n": [
+      {
+        "docId": 2,
+        "occurrence": 4
+      }
+    ],
+    "5;": [
+      {
+        "docId": 2,
+        "occurrence": 3
+      }
+    ],
+    "(n": [
+      {
+        "docId": 2,
+        "occurrence": 6
+      }
+    ],
+    "\u003E": [
+      {
+        "docId": 2,
+        "occurrence": 4
+      }
+    ],
+    "3)": [
+      {
+        "docId": 2,
+        "occurrence": 3
+      }
+    ],
+    "ans": [
+      {
+        "docId": 2,
+        "occurrence": 6
+      }
+    ],
+    "3;": [
+      {
+        "docId": 2,
+        "occurrence": 3
+      }
+    ],
+    "n--;": [
+      {
+        "docId": 2,
+        "occurrence": 3
+      }
+    ],
+    "\u003C=": [
+      {
+        "docId": 2,
+        "occurrence": 3
+      }
+    ],
+    "2)": [
+      {
+        "docId": 2,
+        "occurrence": 3
+      }
+    ],
+    "2;": [
+      {
+        "docId": 2,
+        "occurrence": 3
+      }
+    ],
+    "Console": [
+      {
+        "docId": 2,
+        "occurrence": 6
+      }
+    ],
+    "WriteLine(ans);": [
+      {
+        "docId": 2,
+        "occurrence": 3
+      }
+    ],
+    "WriteLine(n);": [
+      {
+        "docId": 2,
+        "occurrence": 3
+      }
+    ],
+    "}11Declaration": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "SpaceA": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "space": [
+      {
+        "docId": 2,
+        "occurrence": 5
+      }
+    ],
+    "different": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      }
+    ],
+    "entities": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "Each": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      }
+    ],
+    "defines": [
+      {
+        "docId": 2,
+        "occurrence": 3
+      }
+    ],
+    "Nested": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "blocks": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "also": [
+      {
+        "docId": 2,
+        "occurrence": 4
+      }
+    ],
+    "introduce": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "spaces": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      }
+    ],
+    "illegal": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "parent\u2019s": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "Declaration": [
+      {
+        "docId": 2,
+        "occurrence": 3
+      }
+    ],
+    "intent": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "shouldn\u2019t": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      }
+    ],
+    "matter": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "put": [
+      {
+        "docId": 2,
+        "occurrence": 4
+      }
+    ],
+    "move": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "change": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "12Scope": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "Spaceint": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "}int": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "7;": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "}13Statement": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "ExpressionsC#": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "specification": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "distinguishes": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "categories": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "statementFocus": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "here": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "statementExpression": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "statementIteration": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "statementSelection": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "statementWhat": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "difference": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "statement": [
+      {
+        "docId": 2,
+        "occurrence": 3
+      }
+    ],
+    "?14Expression": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "statementsAn": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "sequence": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "operators": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "operands": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "following": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "kind": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "expressions": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      }
+    ],
+    "statements": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      }
+    ],
+    "Method": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "invocationAssignmentIncrementDecrement": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "New": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "object": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      }
+    ],
+    "declaration2\u002B3": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "valid": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "compiler": [
+      {
+        "docId": 2,
+        "occurrence": 3
+      }
+    ],
+    "complain": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "write": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "2\u002B3;": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "line": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "15Camel": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "NotationCamel": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "notation": [
+      {
+        "docId": 2,
+        "occurrence": 3
+      }
+    ],
+    "word": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      }
+    ],
+    "identifier": [
+      {
+        "docId": 2,
+        "occurrence": 3
+      }
+    ],
+    "together": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "without": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "letter": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      }
+    ],
+    "each": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "capitalized": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "looking": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "humps": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "camelmyCamelNotationIdentifierPascal": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "NotationPascal": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "camel": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "except": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "initial": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "uppercaseMyPascalNotationIdentifierFor": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "parameters/arguments": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "we": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      }
+    ],
+    "normally": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      }
+    ],
+    "\u201CCamel": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "notation\u201D": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      }
+    ],
+    "For": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "methods": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "\u201CPascal": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "16Preprocessing": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "Directives": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      }
+    ],
+    "(1/2)Before": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "preprocessor": [
+      {
+        "docId": 2,
+        "occurrence": 3
+      }
+    ],
+    "runs": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "prepares": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "examines": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "special": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "directives": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      }
+    ],
+    "begin": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "pound": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "sign": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "(#)": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "These": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "define": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "identifiers": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "test": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "existence": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "Examples#define": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "#if": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "#endif": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "#error": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "#warning": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "#line": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "#pragma#region": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "#endregion17Preprocessing": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "(2/2)18ConstantsA": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "constant": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "values": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "changed": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "Literals": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "e": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "10": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "23": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "45Symbolic": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "Const": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "value;": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "//architecture(syntax)Const": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "BoilingPoint": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "100;Enumerations": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "[attributes]": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "[modifiers]": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "enum": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "[": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "base-type]": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "{enumerator-list}19Intrinsic": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "typesNumeric": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "typesInteger": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "typesFloating-point": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "typesBooleanStrings": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "CharactersObject20Integer": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "types21Floating-point": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "type22C#": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "recognizes": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "third": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "floating-point": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "Decimal": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      }
+    ],
+    "(System": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "CLR)": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "128": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "bit": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "value": [
+      {
+        "docId": 2,
+        "occurrence": 3
+      }
+    ],
+    "In-class": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "activityNumeric": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "conversionint": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "i": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "42;double": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "di": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "i;Console": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "WriteLine(i": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      }
+    ],
+    "5);Console": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      }
+    ],
+    "WriteLine(di": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "0);23Checked": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "context": [
+      {
+        "docId": 2,
+        "occurrence": 5
+      }
+    ],
+    "(1/2)CheckedC#": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "checked": [
+      {
+        "docId": 2,
+        "occurrence": 7
+      }
+    ],
+    "keyword": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      }
+    ],
+    "front": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "contest": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "certain": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "arithmetic": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "including": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "casts": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "overflow": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      }
+    ],
+    "cast": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "integer": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      }
+    ],
+    "too": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "high": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "low": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "fit": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "occur\u2014the": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "throw": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "OverflowException": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "Checked": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "contexts": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "detect": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "overflows": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "ordinary": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "arithmetic24Checked": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "(2/2)UncheckedC#": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "unchecked": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      }
+    ],
+    "indicate": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "particular": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "contextYou": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "configure": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "default": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "explicitly": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "silently": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "25Checked": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "exampleint": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "result": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "checked(": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "b": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    ")": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "c;26Checked{": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "r1": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      }
+    ],
+    "b;": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "r2": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "(int)": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "c;}Arithmetic": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "OperatorsOperatorDescriptionExample\u002BAdditioni\u002B5-SubtractionJ-10*Multiplicationi*8/Divisiona/3%Modulus": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "(division": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "remainder)i%6\u002B\u002Bincrement\u002B\u002Bi--Decrement--iAssignment": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "OperatorsOperatorExampleEquivalent": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "to=i=5i": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "5\u002B=j\u002B=4j": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "j\u002B4\u002B=a": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "\u002B=": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "\u2018string\u2019a": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "\u2018string\u2019-=j-=4j": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "j": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "-4*=b*=2b": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "b*2/=c/=5c": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "c/5%=d%=6d": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "d": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "%": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "6Comparison": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "OperatorsOperatorDescriptionExample==Is": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "equal": [
+      {
+        "docId": 2,
+        "occurrence": 4
+      }
+    ],
+    "toI": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "==": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "5!=Is": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "J": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "!=10\u003EIs": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "greater": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      }
+    ],
+    "thani\u003E0\u003CIs": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "less": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      }
+    ],
+    "thani\u003C6\u003E=Is": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "toJ\u003E=15\u003C=Is": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "toJ": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "\u003C=20Logical": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "OperatorsOperatorDescriptionExample\u0026\u0026Anda==4": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "\u0026\u0026": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "b==5||Ora\u003C5||a\u003E0!Not": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "!(a==b)Binary": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "operators31Ternary": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "operator": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "(Conditional": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "operator)Conditional-expression": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "?": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      }
+    ],
+    "expression1": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "expression2int": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "value1": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      }
+    ],
+    "5;int": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "value2": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      }
+    ],
+    "10;int": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "maxValue": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "Value2": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "value132Control": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "structureSequentialFlows": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "beginning": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "endSelectionSingle": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "selectionDouble": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "selectionMultiple": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "selectionRepetitionFixed": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "repetitionPretest": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "repetitionPosttest": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "repetition33In-class": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "activities1": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "Implement": [
+      {
+        "docId": 2,
+        "occurrence": 4
+      }
+    ],
+    "factorial": [
+      {
+        "docId": 2,
+        "occurrence": 2
+      }
+    ],
+    "iteration2": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "recursion3": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "score": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "grader4": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "GPA": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "calculator34": [
+      {
+        "docId": 2,
+        "occurrence": 1
+      }
+    ],
+    "CSC322\nLecture": [
+      {
+        "docId": 4,
+        "occurrence": 1
+      },
+      {
+        "docId": 3,
+        "occurrence": 1
+      }
+    ],
+    "Note": [
+      {
+        "docId": 4,
+        "occurrence": 33
+      },
+      {
+        "docId": 3,
+        "occurrence": 18
+      }
+    ],
+    "4\nDr": [
+      {
+        "docId": 3,
+        "occurrence": 18
+      }
+    ],
+    "Odumuyiwa\n1CSC322\nLecture": [
+      {
+        "docId": 4,
+        "occurrence": 32
+      },
+      {
+        "docId": 3,
+        "occurrence": 17
+      }
+    ],
+    "Odumuyiwa\n1": [
+      {
+        "docId": 4,
+        "occurrence": 1
+      },
+      {
+        "docId": 3,
+        "occurrence": 1
+      }
+    ],
+    "5\nDr": [
+      {
+        "docId": 4,
+        "occurrence": 33
+      }
+    ]
+  }
+}

@@ -4,7 +4,7 @@ namespace SearchEngine.API.Services.Parsers
 {
     public abstract class DocParser : IDocParser
     {
-        public abstract IDocument? ExtractDataToDocument(FileInfo file);
+        public abstract IDocument? ExtractDataToDocument(string file);
 
     }
 }

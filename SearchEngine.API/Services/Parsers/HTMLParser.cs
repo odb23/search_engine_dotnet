@@ -8,7 +8,7 @@ namespace SearchEngine.API.Services.Parsers
     public class HTMLParser : DocParser
     {
 
-        public override IDocument? ExtractDataToDocument(FileInfo file)
+        public override IDocument? ExtractDataToDocument(string file)
         {
             string htmlTextContent = ExtractFromFileAsText(file);
 
@@ -19,19 +19,19 @@ namespace SearchEngine.API.Services.Parsers
 
             var document = new Document
             {
-                Name = file.Name,
+                Name = file,
                 Content = content
             };
 
             return document;
         }
 
-        private static string ExtractFromFileAsText(FileInfo file)
+        private static string ExtractFromFileAsText(string file)
         {
 
             StringBuilder sb = new();
 
-            using (StreamReader sr = file.OpenText())
+            using (StreamReader sr = File.OpenText(file))
             {
                 var s = "";
                 while ((s = sr.ReadLine()) != null)

@@ -6,12 +6,12 @@ namespace SearchEngine.API.Services
     public class SearchService : ISearchService
     {
         private readonly IDocumentService DocumentService;  
-        private readonly IKeywordService KeywordService;   
+        private readonly IRanker Ranker;   
 
-        public SearchService(IDocumentService docService, IKeywordService kwService)
+        public SearchService(IDocumentService docService, IRanker ranker)
         {
             this.DocumentService = docService;
-            this.KeywordService = kwService;   
+            this.Ranker = ranker;   
         }
 
         public List<ISearchResult> GetSearchResult(ISearchQuery query)
@@ -21,13 +21,20 @@ namespace SearchEngine.API.Services
 
         private List<ISearchResult> HandleQuerySearch(ISearchQuery query)
         {
+            List<ISearchResult> results = new();
+
             var tokens = query.Tokens;
 
-            var tokensInvertedList = this.GetTokensInvertedList(tokens);
+            var tokensInvertedList = this.Ranker.GetTokensInvertedList(tokens);
 
-            var tokenDocKeysOccurnce = Ranker.RankDocsByKeywordOccurrence(tokensInvertedList);
+            if (tokensInvertedList == null)
+            {
+                return results;
+            }
+
+            var tokenDocKeysOccurnce = this.Ranker.RankDocsByKeywordOccurrence(tokensInvertedList);
            
-            List<ISearchResult> results = this.GetSearchResultDocuments(tokenDocKeysOccurnce);
+            results = this.GetSearchResultDocuments(tokenDocKeysOccurnce);
 
             return results;
         }
@@ -36,13 +43,23 @@ namespace SearchEngine.API.Services
         {
             List<ISearchResult> res = new ();
 
+            if (tokenDocKeysOccurnce == null)
+            {
+                return res;
+            }
+
             foreach (var t in tokenDocKeysOccurnce)
             {
                 var doc = this.DocumentService.GetDocumentById(t.DocId);
 
                 res.Add(new SearchResult
                 {
-                   ResultDocument = doc,
+                   ResultDocument = new Document
+                   {
+                       Id = doc.Id,
+                       Name= doc.Name,  
+                       Content = doc.Content,
+                   },
                    DocKeywordOccurrence = t,
                 });
             }
@@ -51,18 +68,6 @@ namespace SearchEngine.API.Services
         }
 
       
-        private List<List<IDocKeywordOccurrence>> GetTokensInvertedList(string[] tokens)
-        {
-            List<List<IDocKeywordOccurrence>> tokensInvertedIndex = new();
-
-            // get inverted index for every token.
-            foreach (var token in tokens)
-            {
-                var t_invertedIndex = this.KeywordService.GetDocKeywordOccurrences(token);
-                tokensInvertedIndex.Add(t_invertedIndex);
-            }
-
-            return tokensInvertedIndex;
-        }
+        
     }
 }
