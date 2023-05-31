@@ -15,7 +15,7 @@ namespace SearchEngine.API.Services.Parsers
             };
         }
 
-        private static string GetTextFromXMLFile (string file)
+        private static string GetTextFromXMLFile(string file)
         {
             XmlDocument xmlDoc = new();
             xmlDoc.Load(file);

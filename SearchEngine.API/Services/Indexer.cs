@@ -50,10 +50,18 @@ namespace SearchEngine.API.Services
             }
         }
 
-        private bool HandleDocumentIndexing (IDocument doc)
+        private bool HandleDocumentIndexing (IDocument? doc)
         {
+            if (doc == null)
+            {
+                return false;
+            }
             var tokens = SplitDocumentContentIntoCleanTokens(doc.Content!);
 
+            if (tokens == null || tokens.Count < 1)
+            {
+                return false;
+            }
             foreach (string token in tokens) { 
                 doc.AddorUpdateKeywordOccurenece(token);
             }
@@ -61,8 +69,12 @@ namespace SearchEngine.API.Services
              return this.DocumentService.AddDocument(doc);
         }
 
-        private static List<string> SplitDocumentContentIntoCleanTokens (string content)
+        private static List<string>? SplitDocumentContentIntoCleanTokens (string content)
         {
+            if (content == null)
+            {
+                return null;
+            }
 
             char[] delimiterChars = { ' ', ',', '.', ':', '\t' };
 

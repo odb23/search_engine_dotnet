@@ -1,11 +1,160 @@
 ﻿using SearchEngine.API.Services;
 using SearchEngine.API.Interfaces;
 using SearchEngine.API.Services.Parsers;
+using SearchEngine.API.Exceptions;
 
 namespace SearchEngine.API.Tests.Services
 {
     public class DocHandlerTest
     {
+        [Fact]
+        public void ExtractDataDocumentFromFile_WithhtmlFile_ShouldCreateDocument()
+        {
+
+            string fileName = GetDataSourcePath() + @"\file.html";
+
+            DocParseHandler handler = new DocParseHandler();
+
+            var res = handler.ExtractDataDocumentFromFile(fileName);
+            Assert.IsAssignableFrom<IDocument>(res);
+        }
+
+        [Fact]
+        public void ExtractDataDocumentFromFile_WithxmlFile_ShouldCreateDocument()
+        {
+
+            string fileName = GetDataSourcePath() + @"\file.xml";
+
+            DocParseHandler handler = new DocParseHandler();
+
+            var res = handler.ExtractDataDocumentFromFile(fileName);
+            Assert.IsAssignableFrom<IDocument>(res);
+        }
+
+        [Fact]
+        public void ExtractDataDocumentFromFile_WithpptxFile_ShouldCreateDocument()
+        {
+
+            string fileName = GetDataSourcePath() + @"\file.pptx";
+
+            DocParseHandler handler = new DocParseHandler();
+
+            var res = handler.ExtractDataDocumentFromFile(fileName);
+            Assert.IsAssignableFrom<IDocument>(res);
+        }
+
+        //[Fact]
+        //public void ExtractDataDocumentFromFile_WithxlsFile_ShouldCreateDocument()
+        //{
+
+        //    string fileName = GetDataSourcePath() + @"\file.xls";
+
+        //    DocParseHandler handler = new DocParseHandler();
+
+        //    var res = handler.ExtractDataDocumentFromFile(fileName);
+        //    Assert.IsAssignableFrom<IDocument>(res);
+        //}
+
+        //[Fact]
+        //public void ExtractDataDocumentFromFile_WithtdocFile_ShouldCreateDocument()
+        //{
+
+        //    string fileName = GetDataSourcePath() + @"\file.doc";
+
+        //    DocParseHandler handler = new DocParseHandler();
+
+        //    var res = handler.ExtractDataDocumentFromFile(fileName);
+        //    Assert.IsAssignableFrom<IDocument>(res);
+        //}
+
+        //[Fact]
+        //public void ExtractDataDocumentFromFile_WithdocxFile_ShouldCreateDocument()
+        //{
+
+        //    string fileName = GetDataSourcePath() + @"\file.docx";
+
+        //    DocParseHandler handler = new DocParseHandler();
+
+        //    var res = handler.ExtractDataDocumentFromFile(fileName);
+        //    Assert.IsAssignableFrom<IDocument>(res);
+        //}
+
+        [Fact]
+        public void ExtractDataDocumentFromFile_WithtxtFile_ShouldCreateDocument()
+        {
+
+            string fileName = GetDataSourcePath() + @"\file.txt";
+
+            DocParseHandler handler = new DocParseHandler();
+
+            var res = handler.ExtractDataDocumentFromFile(fileName);
+            Assert.IsAssignableFrom<IDocument>(res);
+        }
+
+        //[Fact]
+        //public void ExtractDataDocumentFromFile_WithxlsxFile_ShouldCreateDocument()
+        //{
+
+        //    string fileName = GetDataSourcePath() + @"\file.xlsx";
+
+        //    DocParseHandler handler = new DocParseHandler();
+
+        //    var res = handler.ExtractDataDocumentFromFile(fileName);
+        //    Assert.IsAssignableFrom<IDocument>(res);
+        //}
+
+        //[Fact]
+        //public void ExtractDataDocumentFromFile_WithpptFile_ShouldCreateDocument()
+        //{
+
+        //    string fileName = GetDataSourcePath() + @"\file.ppt";
+
+        //    DocParseHandler handler = new DocParseHandler();
+
+        //    var res = handler.ExtractDataDocumentFromFile(fileName);
+        //    Assert.IsAssignableFrom<IDocument>(res);
+        //}
+
+        [Fact]
+        public void ExtractDataDocumentFromFile_WithPdfFile_ShouldCreateDocument() {
+
+            string fileName = GetDataSourcePath() + @"\file.pdf";
+
+            DocParseHandler handler = new DocParseHandler();
+
+            var res = handler.ExtractDataDocumentFromFile(fileName);
+            Assert.IsAssignableFrom<IDocument>(res);
+        }
+        private string GetDataSourcePath()
+        {
+
+            string dir = Directory.GetCurrentDirectory().Replace("\\bin\\Debug\\net7.0", "");
+
+            return Path.Join(dir, "files");
+        }
+
+        [Fact]
+        public void ExtractDataDocumentFromFile_WithInvalidFile_ShouldThrowErrow()
+        {
+            string fileName = "anyfile.html";
+
+            DocParseHandler handler = new DocParseHandler();
+
+          
+            Assert.Throws<FileNotFoundException>(() =>
+                    handler.ExtractDataDocumentFromFile(fileName));
+        }
+        [Fact]
+        public void ExtractDataDocumentFromFile_WithInvalidFileExtension_ShouldThrowErrow ()
+        {
+            string fileName = "anyfile.xxhtml";
+
+            DocParseHandler handler = new DocParseHandler();
+
+
+            Assert.Throws<InvalidFileTypeException> (() =>
+                    handler.ExtractDataDocumentFromFile(fileName));
+        }
         [Fact]
         public void GetValidExtractor_WithHtmlExtension_ShouldReturnIDOcParser()
         {
